@@ -15,7 +15,7 @@ tags:
  
 Thanks to the following useful guide.
 
-![](https://github.com/ly16/ly16.github.io/blob/master/img/afternoon-tea.png)
+![](https://github.com/ly16/ly16.github.io/blob/master/img/break-tea.png)
 
 [Reference](https://github.com/Huxpro/huxpro.github.io)
 
