@@ -1,4 +1,4 @@
-### How to build a personal free web page with Github and Jekyll
+### Build a personal free web page with Github and Jekyll
 _______
 #### Steps:
 
