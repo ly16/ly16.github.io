@@ -53,7 +53,7 @@ kramdown:
 
 # 评论系统
 # Disqus settings（https://disqus.com/）
-disqus_username: lilly_yu
+disqus_shortname: ly16-github-io
 
 
 
