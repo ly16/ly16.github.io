@@ -8,3 +8,6 @@ _______
 - Edit information in `_config.yml`
 - Link disscussion board and Google Analytics with your own ID
 - Done! You can start your first blog now ...
+
+
+> fork from @huxpro
