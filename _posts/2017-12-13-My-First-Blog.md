@@ -16,7 +16,7 @@ tags:
  
 Thanks to the following useful guide.
 
-![](img/post-bg-blog-body.jpg)
+![](https://github.com/ly16/ly16.github.io/blob/master/img/post-bg-blog-body.jpg)
 
 [Reference](https://github.com/Huxpro/huxpro.github.io)
 
