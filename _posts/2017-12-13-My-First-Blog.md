@@ -12,7 +12,7 @@ tags:
 ---
 
 
-### This is a test for my 1st Blog.
+### This is a test for my 1st Blog
  
 Thanks to the following useful guide.
 
