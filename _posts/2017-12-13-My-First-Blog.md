@@ -15,11 +15,10 @@ tags:
  
 Thanks to the following useful guide.
 
-{% figure caption:"*Markdown* caption" %}
 
-![Image](/img/break-tea.png)
-
-{% endfigure %}
+<figure>
+  <img src="/img/break-tea.png" alt="Image" />
+</figure>
 
 [Reference](https://github.com/Huxpro/huxpro.github.io)
 
