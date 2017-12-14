@@ -53,8 +53,7 @@ kramdown:
 
 # 评论系统
 # Disqus settings（https://disqus.com/）
-export JEKYLL_ENV=production
-disqus_shortname: ly16.github.io
+disqus_username: lilly_yu
 
 
 
