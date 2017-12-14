@@ -15,7 +15,7 @@ tags:
  
 Thanks to the following useful guide.
 
-![](https://github.com/ly16/ly16.github.io/blob/master/img/post-bg-blog-body.jpg)
+<img src ="https://github.com/ly16/ly16.github.io/blob/master/img/post-bg-blog-body.jpg" height = 80% width=80%>
 
 [Reference](https://github.com/Huxpro/huxpro.github.io)
 
