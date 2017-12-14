@@ -16,6 +16,8 @@ tags:
  
 Thanks to the following useful guide.
 
+![](img/post-bg-blog-body.jpg)
+
 [Reference](https://github.com/Huxpro/huxpro.github.io)
 
 
