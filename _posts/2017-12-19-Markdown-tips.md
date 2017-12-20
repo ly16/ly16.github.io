@@ -11,7 +11,8 @@ tags:
 
 ---
 
-# Tips for highlighting code in markdown format
+## Tips for highlighting code in markdown format
+
 ```java
 public abstract class L2Character extends L2Object {
   public static final Short ABNORMAL_EFFECT_BLEEDING = 0x0_0_0_1; // not sure
