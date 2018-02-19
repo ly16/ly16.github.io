@@ -7,7 +7,7 @@ author:     Clover
 header-img: img/post-bg-markdown.jpg
 catalog: true
 tags:
-    - Coding
+    - Skills
 
 ---
 
