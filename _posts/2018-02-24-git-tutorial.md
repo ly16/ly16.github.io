@@ -13,14 +13,14 @@ tags:
 
 ### Start your git following instructions below
 
-##### Workspace, stage and master
+##### Work dict, stage and master
 <figure>
   <img src="/img/git-concept.jpg" alt="Image" />
 </figure>
 
 |    name    | function |
 | ---------- | --- |
-|workspace|What you can see in your computer|
+|work dict|What you can see in your computer|
 |stage    |Keep your files temporarily|
 |master   |Keep your old version works| 
 
@@ -68,7 +68,7 @@ ______________________________________________
 
    If you make some change in the file hello.text
    
-   `git diff`
+   `git diff`  difference between work dict and stage
    
    ```
   diff --git a/color.txt b/color.txt
@@ -79,17 +79,39 @@ ______________________________________________
   -Red
   +Red, pink
    ```
+   
+    `git diff --cached` difference between stage and master
     
+    `git diff HEAD --` difference between work dict and master
+    
+    ```
+    diff --git a/color.txt b/color.txt
+    index d30c108..2e0df5d 100644
+    --- a/color.txt
+    +++ b/color.txt
+    @@ -1 +1 @@
+   -Red
+   +Red, pink
+   ```
 - Store what in your stage to master
 
- `git add` writes into stage，but `git commit` writes from stage to master
+  `git add` writes into stage，but `git commit` writes from stage to master
  
- `git commit -m "1st submit"`
+  `git commit -m "1st submit"`
 
- ```
- [master (root-commit) 39ebede] 1st submit
- 3 files changed, 2 insertions(+)
- create mode 100644 color.txt
- create mode 100644 hello.txt
- create mode 100644 touch
- ```
+  ```
+  [master (root-commit) 39ebede] 1st submit
+  3 files changed, 2 insertions(+)
+  create mode 100644 color.txt
+  create mode 100644 hello.txt
+  create mode 100644 touch
+  ```
+  
+- To restore all those deleted files 
+  `git ls-files -d | xargs git checkout --`
+ 
+- To remove the git from project directory
+  `rm -rf .git`
+  
+- 
+ 
