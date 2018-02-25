@@ -200,15 +200,15 @@ ______________________________________________
      +++ b/color.txt
      @@ -1 +1 @@
      -Red
-     +Red, pink, blue
-     diff --git a/hello.txt b/hello.txt
-     index 8d6e1e9..716319a 100644 
-     --- a/hello.txt
-     +++ b/hello.txt
-     @@ -1 +1 @@
+      +Red, pink, blue
+      diff --git a/hello.txt b/hello.txt
+      index 8d6e1e9..716319a 100644 
+      --- a/hello.txt
+      +++ b/hello.txt
+      @@ -1 +1 @@
       -Hello World! Goodbye!
-     +Hello World! Goodbye!jhdsoi[oaidhhcoiajiojeoijr
-     ```
+      +Hello World! Goodbye!jhdsoi[oaidhhcoiajiojeoijr
+   ```
      
      `git checkout hello.txt`  only recover this file from last commit
       
