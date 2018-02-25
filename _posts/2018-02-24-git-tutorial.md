@@ -27,6 +27,18 @@ tags:
 ______________________________________________
 
 ##### Commands
+- Create your files
+ `mkdir test`
+ 
+ `cd test`
+ 
+ `touch hello.txt`
+ 
+ `vi hello.txt`
+ 
+ `touch color.txt`
+ 
+ `vi color.txt`
 
 - Start a new git
 	
@@ -44,16 +56,7 @@ ______________________________________________
     Now you can see your files have added 
     
     ```
-    Lilis-MacBook-Pro:test liliyu$ git status
-    On branch master
 
-    Initial commit
-
-    Changes to be committed:
-    (use "git rm --cached <file>..." to unstage)
-
-	new file:   Weekend.text
-	new file:   hello.text
     ```
   
 - Check the difference 
@@ -63,32 +66,15 @@ ______________________________________________
    `git diff`
    
    ```
-   diff --git a/hello.text b/hello.text
-   deleted file mode 100644
-  index 633c679..0000000
-  --- a/hello.text
-  +++ /dev/null
-  @@ -1,8 +0,0 @@
-  -{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
-  -{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-  -{\colortbl;\red255\green255\blue255;}
-  -{\*\expandedcolortbl;;}
-  -\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-  -\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-  -
-  -\f0\fs24 \cf0 Hello World!}
-  \ No newline at end of file
+ 
    ```
     
 - Store what in your stage to master
 
- 使用 git add 命令将想要快照的内容写入缓存区， 而执行 git commit 将缓存区内容添加到仓库中。
+ `git add` writes into stage，but `git commit` writes from stage to master
  
  `git commit -m "1st submit"`
 
 ```
-[master (root-commit) 5208c4d] 1st submit
- 2 files changed, 16 insertions(+)
- create mode 100644 Weekend.text
- create mode 100644 hello.text
+
  ```
