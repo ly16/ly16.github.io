@@ -189,6 +189,6 @@ ______________________________________________
   
   - Recover your last version from master to work dict
   
-   <font color=#0099ff size=12> Very dangerous!!!</font>
+   <font color=0099ff size=12> Very dangerous!!!</font>
 
  
