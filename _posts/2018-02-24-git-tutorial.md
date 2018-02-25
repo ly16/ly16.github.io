@@ -192,7 +192,7 @@ ______________________________________________
   
   `git diff`
   
-    ```
+     ```
      diff --git a/color.txt b/color.txt
      index d30c108..b08fdac 100644
      --- a/color.txt
@@ -207,7 +207,7 @@ ______________________________________________
       @@ -1 +1 @@
       -Hello World! Goodbye!
       +Hello World! Goodbye!jhdsoi[oaidhhcoiajiojeoijr
-   ```
+     ```
      
      `git checkout hello.txt`  only recover this file from last commit
       
