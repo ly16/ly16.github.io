@@ -15,6 +15,6 @@ tags:
 
 - Workspace, stage and master
 <figure>
-  <img src="/img/break-tea.png" alt="Image" />
+  <img src="/img/git-concept.jpg" alt="Image" />
 </figure>
 
