@@ -35,5 +35,12 @@ ______________________________________________
 - Store your files
 
     `git add filename` or `git add .` to add all your file in the current directory
+    
+- check git status
+    `git status`
+    <figure>
+        <img src="/img/git-concept.jpg" alt="Image" />
+    </figure>
+    
 
 
