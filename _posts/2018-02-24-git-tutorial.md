@@ -171,7 +171,24 @@ ______________________________________________
   1 file changed, 1 insertion(+), 1 deletion(-)
   ```
   
+  `git log`
+  
+  ```
+  Author: yuliliclover <yuliliclover@gmail.com>
+  Date:   Sun Feb 25 00:59:53 2018 -0500
+
+    change
+
+  commit 39ebededfa95f30b777bd1c257079d86fe824a6b
+  Author: yuliliclover <yuliliclover@gmail.com>
+  Date:   Sun Feb 25 00:38:10 2018 -0500
+
+    1st submit
+  ```
   
   
+  - Recover your last version from master to work dict
+  
+   color=#0099ff Very Dangerous
 
  
