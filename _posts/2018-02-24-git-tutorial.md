@@ -189,7 +189,7 @@ ______________________________________________
   
 - Recover your last version from master to work dict
   
-      __Very dangerous!!!__ You have to remember your last commit clearly!
+     Very __dangerous__!!! You have to remember your last commit clearly!
   
      `git diff`
   
@@ -225,7 +225,7 @@ ______________________________________________
      -Red
      +Red, pink, blue
      ```
- 
+ ____________________________________
 - Revert to previous version
 
    `git reflog` to see all your changes
