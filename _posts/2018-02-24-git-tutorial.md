@@ -36,10 +36,10 @@ ______________________________________________
 
     `git add filename` or `git add .` to add all your file in the current directory
     
-- check git status
+- Check git status
     `git status`
     
-    now you can see your files have added 
+    Now you can see your files have added 
     
     ```
     Lilis-MacBook-Pro:hw6 liliyu$ git status
@@ -55,7 +55,19 @@ ______________________________________________
 	new file:   hw6.m
 	new file:   hw6.pdf
     ```
-    
+  
+- Check the difference 
+   
+   Say, I delete one file
+   
+   `git diff`
+   
+   ```
+   diff --git a/STA5107 hw6.pdf b/STA5107 hw6.pdf
+	deleted file mode 100644
+	index 1cca4ff..0000000
+	Binary files a/STA5107 hw6.pdf and /dev/null differ
+   ```
     
 
 
