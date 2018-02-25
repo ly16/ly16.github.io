@@ -86,10 +86,10 @@ ______________________________________________
  
  `git commit -m "1st submit"`
 
-```
-[master (root-commit) 39ebede] 1st submit
+ ```
+ [master (root-commit) 39ebede] 1st submit
  3 files changed, 2 insertions(+)
  create mode 100644 color.txt
  create mode 100644 hello.txt
  create mode 100644 touch
-```
+ ```
