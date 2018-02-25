@@ -185,11 +185,11 @@ ______________________________________________
 
     1st submit
   ```
-  
+  ____________________________
   
 - Recover your last version from master to work dict
   
-     Very __dangerous__!!! You have to remember your last commit clearly!
+     Very dangerous!!! You have to remember your last commit clearly!
   
      `git diff`
   
@@ -210,12 +210,10 @@ ______________________________________________
      +Hello World! Goodbye!jhdsoi[oaidhhcoiajiojeoijr
      ```
   
-  
      `git checkout hello.txt`  only recover this file from last commit
   
      `git diff`
   
-    
      ```
      diff --git a/color.txt b/color.txt
      index d30c108..b08fdac 100644
