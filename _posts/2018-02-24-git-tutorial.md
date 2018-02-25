@@ -187,7 +187,7 @@ ______________________________________________
   ```
   
   
-  - Recover your last version from master to work dict
+- Recover your last version from master to work dict
   
   __Very dangerous!!!__ You have to remember your last commit clearly!
   
@@ -209,6 +209,8 @@ ______________________________________________
   -Hello World! Goodbye!
   +Hello World! Goodbye!jhdsoi[oaidhhcoiajiojeoijr
   ```
+  
+ 
   
   `git checkout hello.txt`  only recover this file from last commit
   
