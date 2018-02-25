@@ -80,5 +80,15 @@ ______________________________________________
   \ No newline at end of file
    ```
     
+- Store what in your stage to master
 
+ 使用 git add 命令将想要快照的内容写入缓存区， 而执行 git commit 将缓存区内容添加到仓库中。
+ 
+ `git commit -m "1st submit"`
 
+```
+[master (root-commit) 5208c4d] 1st submit
+ 2 files changed, 16 insertions(+)
+ create mode 100644 Weekend.text
+ create mode 100644 hello.text
+ ```
