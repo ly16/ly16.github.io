@@ -226,7 +226,6 @@ ______________________________________________
       -Red
       +Red, pink, blue
      ```
-__________________________________
 - Revert to previous version
 
    `git reflog` to see all your changes
