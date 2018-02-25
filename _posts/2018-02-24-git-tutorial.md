@@ -18,8 +18,10 @@ tags:
   <img src="/img/git-concept.jpg" alt="Image" />
 </figure>
 
-|name     | function |
---------------------
+|    name    | function |
+| ---------- | --- |
 |workspace|What you can see in your computer|
 |stage    |Keep your files temporarily|
 |master   |Keep your old version works| 
+
+
