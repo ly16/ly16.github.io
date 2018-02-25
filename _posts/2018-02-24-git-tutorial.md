@@ -214,8 +214,6 @@ ______________________________________________
      
      `git diff`
      
-     
-     
       ```
       diff --git a/color.txt b/color.txt
       index d30c108..b08fdac 100644
