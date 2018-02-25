@@ -39,7 +39,7 @@ ______________________________________________
 - check git status
     `git status`
     <figure>
-        <img src="/img/git-concept.jpg" alt="Image" />
+        <img src="/img/git-status.png" alt="Image" />
     </figure>
     
 
