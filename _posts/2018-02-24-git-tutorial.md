@@ -28,17 +28,13 @@ ______________________________________________
 
 ##### Commands
 - Create your files
- `mkdir test`
+   `mkdir test` to create a new directory
  
- `cd test`
+   `cd test` 
  
- `touch hello.txt`
+   `touch hello.txt` to create new file
  
- `vi hello.txt`
- 
- `touch color.txt`
- 
- `vi color.txt`
+   `vi hello.txt`  to edit
 
 - Start a new git
 	
@@ -56,7 +52,16 @@ ______________________________________________
     Now you can see your files have added 
     
     ```
+    On branch master
 
+    Initial commit
+
+   Changes to be committed:
+   (use "git rm --cached <file>..." to unstage)
+
+	new file:   color.txt
+	new file:   hello.txt
+	new file:   touch
     ```
   
 - Check the difference 
@@ -66,7 +71,13 @@ ______________________________________________
    `git diff`
    
    ```
- 
+  diff --git a/color.txt b/color.txt
+  index d30c108..2e0df5d 100644
+  --- a/color.txt
+  +++ b/color.txt
+  @@ -1 +1 @@
+  -Red
+  +Red, pink
    ```
     
 - Store what in your stage to master
@@ -76,5 +87,9 @@ ______________________________________________
  `git commit -m "1st submit"`
 
 ```
-
- ```
+[master (root-commit) 39ebede] 1st submit
+ 3 files changed, 2 insertions(+)
+ create mode 100644 color.txt
+ create mode 100644 hello.txt
+ create mode 100644 touch
+```
