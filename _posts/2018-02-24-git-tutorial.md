@@ -30,10 +30,10 @@ ______________________________________________
 
 - Start a new git
 
-`git init`
+    `git init`
 
 - Store your files
 
-`git add filename` or `git add .` to add all your file in the current directory
+    `git add filename` or `git add .` to add all your file in the current directory
 
 
