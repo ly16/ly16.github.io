@@ -69,7 +69,6 @@ ______________________________________________
    If you make some change in the file hello.text
    
    `git diff`  difference between work dict and stage
-   
    ```
   diff --git a/color.txt b/color.txt
   index d30c108..2e0df5d 100644
