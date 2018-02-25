@@ -210,9 +210,10 @@ ______________________________________________
      +Hello World! Goodbye!jhdsoi[oaidhhcoiajiojeoijr
      ```
      
-      `git checkout hello.txt`  only recover this file from last commit
+     `git checkout hello.txt`  only recover this file from last commit
       
-       `git diff`
+     
+     `git diff`
  ____________________________________
 - Revert to previous version
 
