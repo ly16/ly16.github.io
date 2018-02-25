@@ -13,7 +13,7 @@ tags:
 
 ### Start your git following instructions below
 
-- Workspace, stage and master
+##### Workspace, stage and master
 <figure>
   <img src="/img/git-concept.jpg" alt="Image" />
 </figure>
@@ -24,4 +24,9 @@ tags:
 |stage    |Keep your files temporarily|
 |master   |Keep your old version works| 
 
+______________________________________________
 
+##### Commands
+
+- Start a new git
+' $ git init'
