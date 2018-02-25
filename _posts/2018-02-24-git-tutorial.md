@@ -190,6 +190,25 @@ ______________________________________________
 - Recover your last version from master to work dict
 
   Very dangerous!!! You have to remember your last commit clearly!
+  
+  `git diff`
+  
+    ```
+     diff --git a/color.txt b/color.txt
+     index d30c108..b08fdac 100644
+     --- a/color.txt
+     +++ b/color.txt
+     @@ -1 +1 @@
+     -Red
+     +Red, pink, blue
+     diff --git a/hello.txt b/hello.txt
+     index 8d6e1e9..716319a 100644 
+     --- a/hello.txt
+     +++ b/hello.txt
+     @@ -1 +1 @@
+      -Hello World! Goodbye!
+     +Hello World! Goodbye!jhdsoi[oaidhhcoiajiojeoijr
+     ```
  ____________________________________
 - Revert to previous version
 
