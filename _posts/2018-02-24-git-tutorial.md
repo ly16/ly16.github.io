@@ -203,29 +203,47 @@ ______________________________________________
    +Red, pink, blue
    diff --git a/hello.txt b/hello.txt
    index 8d6e1e9..716319a 100644 
-  --- a/hello.txt
-  +++ b/hello.txt
-  @@ -1 +1 @@
-  -Hello World! Goodbye!
-  +Hello World! Goodbye!jhdsoi[oaidhhcoiajiojeoijr
-   ```
-  
- 
-  
-   `git checkout hello.txt`  only recover this file from last commit
-  
-   `git diff`
-  
-   ```
-  diff --git a/color.txt b/color.txt
-  index d30c108..b08fdac 100644
-   --- a/color.txt
-   +++ b/color.txt
+   --- a/hello.txt
+   +++ b/hello.txt
    @@ -1 +1 @@
-   -Red
-   +Red, pink, blue
+    -Hello World! Goodbye!
+   +Hello World! Goodbye!jhdsoi[oaidhhcoiajiojeoijr
     ```
-   
-
-
+  
  
+  
+    `git checkout hello.txt`  only recover this file from last commit
+  
+    `git diff`
+  
+    ```
+    diff --git a/color.txt b/color.txt
+    index d30c108..b08fdac 100644
+    --- a/color.txt
+    +++ b/color.txt
+    @@ -1 +1 @@
+    -Red
+    +Red, pink, blue
+    ```
+ 
+- Revert to previous version
+
+   `git reflog` to see all your changes
+   
+   ```
+   7780f1f (HEAD -> master) HEAD@{0}: commit: change2
+   39ebede HEAD@{1}: reset: moving to HEAD~1
+   0cf29e4 HEAD@{2}: commit: change
+   39ebede HEAD@{3}: commit (initial): 1st submit
+   ```
+   
+   You should keep the first number according to your commit msg
+   
+   Say you want to return "change"
+   
+   `git reset --hard 0cf29e4`
+   
+   ```
+   HEAD is now at 0cf29e4 change
+   ```
+   
