@@ -113,5 +113,16 @@ ______________________________________________
 - To remove the git from project directory
   `rm -rf .git`
   
-- 
+- Log 
+  `git log`
+  
+  ```
+  commit 39ebededfa95f30b777bd1c257079d86fe824a6b (HEAD -> master)
+  Author: yuliliclover <yuliliclover@gmail.com>
+  Date:   Sun Feb 25 00:38:10 2018 -0500
+
+    1st submit
+  ```
+
+
  
