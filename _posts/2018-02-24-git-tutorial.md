@@ -114,6 +114,7 @@ ______________________________________________
   `rm -rf .git`
   
 - Log 
+
   `git log`
   
   ```
@@ -124,5 +125,53 @@ ______________________________________________
     1st submit
   ```
 
+- Cancel those in __stage__ from being committed to __master__
+  
+  I made change in two files, but just commit one to the master
+  
+  `git status -s`
+  
+  
+  ```
+  M color.txt
+  M hello.txt
+  ```
+
+  ` git add .`
+  
+  `git status`
+  
+  ```
+  On branch master
+  Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   color.txt
+	modified:   hello.txt
+   ```
+   
+   `git reset HEAD -- color.txt`  to cancel this commit to master
+   
+   ```
+   Unstaged changes after reset:
+   M	color.txt
+   ```
+   
+   `git status -s`
+   
+   ```
+    M color.txt
+  M  hello.txt
+  ```
+  
+  `git commit -m "change"`
+  
+  ```
+  [master 0cf29e4] change
+  1 file changed, 1 insertion(+), 1 deletion(-)
+  ```
+  
+  
+  
 
  
