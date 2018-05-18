@@ -1,0 +1,26 @@
+---
+layout:     post
+title:      LeetCode Record Summary
+subtitle:   Round one: first 300 questions
+date:       2018-05-18
+author:     Clover
+header-img: img/leetcode.jpg
+catalog: true
+tags:
+    - LeetCode
+
+---
+
+### Start your git following instructions below
+
+##### Work dict, stage and master
+<figure>
+  <img src="/img/git-concept.jpg" alt="Image" />
+</figure>
+
+|    #    | Name |hint|
+| ---------- | --- |----|
+|5|Longest Palindromic Substring||
+
+______________________________________________
+
