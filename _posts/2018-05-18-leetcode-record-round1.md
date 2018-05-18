@@ -11,7 +11,7 @@ tags:
     
 ---
 
-### record of submissions
+### Record of submissions
 |    #    | Name & Solution                             |Difficulty|Hint|
 | --------| ----------------------------                |----------|----|
 |5        |[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium    | even or odd length   |
