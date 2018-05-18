@@ -4,7 +4,7 @@ title:      LeetCode Record Summary
 subtitle:   first 300 round one
 date:       2018-05-18
 author:     Clover
-header-img: img/post-bg-markdown.jpg
+header-img: img/leetcode.jpg
 catalog: true
 tags:
     - LeetCode
