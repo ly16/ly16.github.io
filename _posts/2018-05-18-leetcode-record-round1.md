@@ -19,6 +19,7 @@ tags:
 |28|[Implement strStr()](https://github.com/ly16/LC-Practice/blob/master/Determine%20If%20One%20String%20Is%20Another's%20Substring.java)|Easy|left the length of needle at the end (substr)|
 |125|[Valid Palindrome](https://github.com/ly16/LC-Practice/blob/master/Valid%20palindrome.java)|Easy|remove the invalid from two ends to the middle (substr)|
 |409|[Longest Palindrome](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindrome.java)|Easy|The longest could be odd, so even + 1 (substr)|
+|516|[Longest Palindromic Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Subsequence.java)|Medium|2d-dp as #5 (substr)|
 
 
 ______________________________________________
