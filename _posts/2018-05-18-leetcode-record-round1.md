@@ -16,6 +16,7 @@ tags:
 |    #    | Name & Solution |Difficulty|Hint|
 | ---------- | --- |---|---|
 |5|[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium|Even or odd length|
+|409|[Longest Palindrome](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindrome.java)|Easy|The longest could be odd, so even + 1|
 
 
 ______________________________________________
