@@ -15,9 +15,9 @@ tags:
 
 |    #    | Name & Solution |Difficulty|Hint|
 | ---------- | --- |---|---|
-|5|[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium|Even or odd length|
-|125|[Valid Palindrome](https://github.com/ly16/LC-Practice/blob/master/Valid%20palindrome.java)|Easy|remove the invalid from two ends to the middle|
-|409|[Longest Palindrome](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindrome.java)|Easy|The longest could be odd, so even + 1|
+|5|[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium|Even or odd length, substr|
+|125|[Valid Palindrome](https://github.com/ly16/LC-Practice/blob/master/Valid%20palindrome.java)|Easy|remove the invalid from two ends to the middle, substr|
+|409|[Longest Palindrome](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindrome.java)|Easy|The longest could be odd, so even + 1, substr|
 
 
 ______________________________________________
