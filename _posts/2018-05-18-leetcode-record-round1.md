@@ -17,6 +17,7 @@ tags:
 | ---------- | --- |---|---|
 |5|[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium|Even or odd length (substr)|
 |28|[Implement strStr()](https://github.com/ly16/LC-Practice/blob/master/Determine%20If%20One%20String%20Is%20Another's%20Substring.java)|Easy|left the length of needle at the end (substr)|
+|33|[ Search in Rotated Sorted Array](https://github.com/ly16/LC-Practice/blob/master/Search%20in%20Rotated%20Sorted%20Array.java)|Medium|two parts ascending (binary)|
 |34|[Search for a Range](https://github.com/ly16/LC-Practice/blob/master/Search%20for%20a%20Range.java)|Medium|first occurence + last occurence (binary)|
 |35|[Search Insert Position](https://github.com/ly16/LC-Practice/blob/master/Search%20Insert%20Position.java)|Easy|Last occurence, move the left first (binary)|
 |50|[Pow(x, n)](https://github.com/ly16/LC-Practice/blob/master/Pow(x%2C%20n).java)|Medium|x^n = x^(n/2) * x^(n/2) (binary)|
