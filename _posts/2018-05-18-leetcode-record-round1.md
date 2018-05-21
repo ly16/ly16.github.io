@@ -30,6 +30,7 @@ tags:
 |162|[Find Peak Element](https://github.com/ly16/LC-Practice/blob/master/Find%20Peak%20Element.java)|Medium|nums[mid] < nums[mid + 1] (binary)|
 |240|[Search a 2D Matrix II](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix%20II.java)|Medium|from the lower left (pointer)|
 |278|[First Bad Version](https://github.com/ly16/LC-Practice/blob/master/First%20Bad%20Version.java)|Easy|first occurance, move the right first (binary)|
+|300|[Longest Increasing Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Ascending%20Subsequence.java)|Medium|First occurence (binary)|
 |409|[Longest Palindrome](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindrome.java)|Easy|The longest could be odd, so even + 1 (substr)|
 |516|[Longest Palindromic Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Subsequence.java)|Medium|2d-dp as #5 (substr)|
 |658|[Find K Closest Elements](https://github.com/ly16/LC-Practice/blob/master/K%20Closest%20In%20Sorted%20Array.java)|Medium|last occurence (binary)|
