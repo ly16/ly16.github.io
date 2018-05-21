@@ -15,6 +15,7 @@ tags:
 
 |    #    | Name & Solution |Difficulty|Hint|
 | ---------- | --- |---|---|
+|1|[Two Sum](https://github.com/ly16/LC-Practice/blob/master/2%20Sum.java)|Easy|(hashMap)|
 |5|[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium|Even or odd length (substr)|
 |28|[Implement strStr()](https://github.com/ly16/LC-Practice/blob/master/Determine%20If%20One%20String%20Is%20Another's%20Substring.java)|Easy|left the length of needle at the end (substr)|
 |33|[ Search in Rotated Sorted Array](https://github.com/ly16/LC-Practice/blob/master/Search%20in%20Rotated%20Sorted%20Array.java)|Medium|two parts ascending (binary)|
@@ -38,4 +39,4 @@ tags:
 
 ______________________________________________
 
-###### Last Update: 05/20/2018
+###### Last Update: 05/21/2018
