@@ -39,6 +39,7 @@ tags:
 |409|[Longest Palindrome](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindrome.java)|Easy|The longest could be odd, so even + 1 (substr)|
 |516|[Longest Palindromic Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Subsequence.java)|Medium|2d-dp as #5 (substr)|
 |658|[Find K Closest Elements](https://github.com/ly16/LC-Practice/blob/master/K%20Closest%20In%20Sorted%20Array.java)|Medium|last occurence (binary)|
+|680|[Valid Palindrome II](https://github.com/ly16/LC-Practice/blob/master/Valid%20Palindrome%20II.java)|Easy|(pointer)|
 
 
 ______________________________________________
