@@ -27,7 +27,7 @@ tags:
 |69|[Sqrt(x)](https://github.com/ly16/LC-Practice/blob/master/Sqrt(x).java)|Easy|Last occurence, left move first (binary)|
 |74|[Search a 2D Matrix](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix.java)|Medium|transfer from matrix into a array (binary)|
 |75|[Sort Colors](https://github.com/ly16/LC-Practice/blob/master/Rainbow%20Sort.java)|Medium|three points, four blocks (pointer)|
-|86|[Partition List](https://github.com/ly16/LC-Practice/blob/master/Partition%20Linked%20List.java)|Medium|two dummy heads,and concate (ListNode)|
+|86|[Partition List](https://github.com/ly16/LC-Practice/blob/master/Partition%20Linked%20List.java)|Medium|two dummy heads, and concate (Linked List)|
 |125|[Valid Palindrome](https://github.com/ly16/LC-Practice/blob/master/Valid%20palindrome.java)|Easy|remove the invalid from two ends to the middle (substr)|
 |148|[Sort List](https://github.com/ly16/LC-Practice/blob/master/Sort%20List.java)|Medium|merge sort and quick sort (sort)|
 |153|[Find Minimum in Rotated Sorted Array](https://github.com/ly16/LC-Practice/blob/master/Find%20Minimum%20in%20Rotated%20Sorted%20Array.java)|Medium|smallest one is in the right ascending part (binary)|
