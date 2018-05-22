@@ -23,6 +23,7 @@ tags:
 |34|[Search for a Range](https://github.com/ly16/LC-Practice/blob/master/Search%20for%20a%20Range.java)|Medium|first occurence + last occurence (binary)|
 |35|[Search Insert Position](https://github.com/ly16/LC-Practice/blob/master/Search%20Insert%20Position.java)|Easy|Last occurence, move the left first (binary)|
 |50|[Pow(x, n)](https://github.com/ly16/LC-Practice/blob/master/Pow(x%2C%20n).java)|Medium|x^n = x^(n/2) * x^(n/2) (binary)|
+|57|[3Sum](https://github.com/ly16/LC-Practice/blob/master/3%20Sum.java)|Medium|(pointer)|
 |69|[Sqrt(x)](https://github.com/ly16/LC-Practice/blob/master/Sqrt(x).java)|Easy|Last occurence, left move first (binary)|
 |74|[Search a 2D Matrix](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix.java)|Medium|transfer from matrix into a array (binary)|
 |75|[Sort Colors](https://github.com/ly16/LC-Practice/blob/master/Rainbow%20Sort.java)|Medium|three points, four blocks (pointer)|
