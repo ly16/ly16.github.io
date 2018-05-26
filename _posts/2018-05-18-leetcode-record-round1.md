@@ -45,6 +45,7 @@ tags:
 |259|[3Sum Smaller](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Smaller.java)|Medium|Don't move right, but count the interval of left and right (pointer)|
 |278|[First Bad Version](https://github.com/ly16/LC-Practice/blob/master/First%20Bad%20Version.java)|Easy|first occurance, move the right first (binary)|
 |283|[Move Zeroes](https://github.com/ly16/LC-Practice/blob/master/Move%200s%20To%20The%20End%20II.java)|Easy|slow records ans (pointer)|
+|297|[Serialize and Deserialize Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Serialization.java)|Hard|print binary tree layer by layer (BFS)|
 |300|[Longest Increasing Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Ascending%20Subsequence.java)|Medium|First occurence (binary)|
 |409|[Longest Palindrome](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindrome.java)|Easy|The longest could be odd, so even + 1 (substr)|
 |516|[Longest Palindromic Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Subsequence.java)|Medium|2d-dp as #5 (substr)|
@@ -54,4 +55,4 @@ tags:
 
 ______________________________________________
 
-###### Last Update: 05/24/2018
+###### Last Update: 05/26/2018
