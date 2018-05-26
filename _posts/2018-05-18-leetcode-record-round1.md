@@ -44,6 +44,7 @@ tags:
 |167|[Two Sum II - Input array is sorted](https://github.com/ly16/LC-Practice/blob/master/2%20Sum%20II.java)|Easy|(pointer)|
 |170|[Two Sum III - Data structure design](https://github.com/ly16/LC-Practice/blob/master/Two%20Sum%20III%20-%20Data%20structure%20design.java)|Easy|list can change length (hashMap)|
 |200|[Number of Islands](https://github.com/ly16/LC-Practice/blob/master/Number%20of%20Islands.java)|Medium|coordinate, change 1 to 0 after traverse (BFS)|
+|207|[Course Schedule](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule.java)|Medium|topological sort, result size == numCourses (BFS)|
 |215|[Kth Largest Element in an Array](https://github.com/ly16/LC-Practice/blob/master/Kth%20Largest%20Element.java)|Medium|quick selection (sort)|
 |240|[Search a 2D Matrix II](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix%20II.java)|Medium|from the lower left (pointer)|
 |259|[3Sum Smaller](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Smaller.java)|Medium|Don't move right, but count the interval of left and right (pointer)|
