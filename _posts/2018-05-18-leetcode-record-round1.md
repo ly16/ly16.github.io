@@ -16,6 +16,7 @@ tags:
 |    #    | Name & Solution |Difficulty|Hint|
 | ---------- | --- |---|---|
 |1|[Two Sum](https://github.com/ly16/LC-Practice/blob/master/2%20Sum.java)|Easy|(hashMap)|
+|3|[Longest Substring Without Repeating Characters](https://github.com/ly16/LC-Practice/blob/master/Longest%20Substring%20Without%20Repeating%20Characters.java)|Medium|slow and fast, to the new position (pointer)|
 |5|[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium|Even or odd length (substr)|
 |16|[3Sum Closest](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Closest.java)|Medium|first theree numbers as inital sum (pointer)|
 |18|[4Sum](https://github.com/ly16/LC-Practice/blob/master/4%20Sum.java)|Medium|one addition + 3sum (pointer)|
