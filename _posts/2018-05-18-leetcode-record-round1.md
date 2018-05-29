@@ -54,6 +54,7 @@ tags:
 |162|[Find Peak Element](https://github.com/ly16/LC-Practice/blob/master/Find%20Peak%20Element.java)|Medium|nums[mid] < nums[mid + 1] (binary)|
 |167|[Two Sum II - Input array is sorted](https://github.com/ly16/LC-Practice/blob/master/2%20Sum%20II.java)|Easy|(pointer)|
 |170|[Two Sum III - Data structure design](https://github.com/ly16/LC-Practice/blob/master/Two%20Sum%20III%20-%20Data%20structure%20design.java)|Easy|list can change length (hashMap)|
+|173|[Binary Search Tree Iterator](https://github.com/ly16/LC-Practice/blob/master/Binary%20Search%20Tree%20Iterator.java)|Medium|find the smallest left first and then right, inorder (tree)|
 |200|[Number of Islands](https://github.com/ly16/LC-Practice/blob/master/Number%20of%20Islands.java)|Medium|coordinate, change 1 to 0 after traverse (BFS)|
 |207|[Course Schedule](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule.java)|Medium|topological sort, result size == numCourses (BFS)|
 |210|[Course Schedule II](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule%20II.java)|Medium|reverse the order of prerequisites (BFS)|
