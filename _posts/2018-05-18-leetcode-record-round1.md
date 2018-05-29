@@ -34,6 +34,7 @@ tags:
 |94|[Binary Tree Inorder Traversal](https://github.com/ly16/LC-Practice/blob/master/In-order%20Traversal%20Of%20Binary%20Tree.java)|Medium|if use iterative way, consider cur node and stack is empty (DFS)|
 |102|[Binary Tree Level Order Traversal](https://github.com/ly16/LC-Practice/blob/master/Get%20Keys%20In%20Binary%20Tree%20Layer%20By%20Layer.java)|Medium|BFS by level (BFS)|
 |103|[Binary Tree Zigzag Level Order Traversal](https://github.com/ly16/LC-Practice/blob/master/Get%20Keys%20In%20Binary%20Tree%20Layer%20By%20Layer%20Zig-Zag%20Order.java)|Medium|traverse binary tree layer by layer different direction (BFS)|
+|104|[Maximum Depth of Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Maximum%20Depth%20of%20Binary%20Tree.java)|Easy|1+max(l,r) (DFS)|
 |107|[Binary Tree Level Order Traversal II](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Level%20Order%20Traversal%20II.java)|Easy|traverse layer by layer, reverse (BFS)|
 |114|[Flatten Binary Tree to Linked List](https://github.com/ly16/LC-Practice/blob/master/Flatten%20Binary%20Tree%20to%20Linked%20List.java)|Medium|record the right child first (DFS)|
 |125|[Valid Palindrome](https://github.com/ly16/LC-Practice/blob/master/Valid%20palindrome.java)|Easy|remove the invalid from two ends to the middle (substr)|
