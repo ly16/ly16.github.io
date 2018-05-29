@@ -32,6 +32,7 @@ tags:
 |75|[Sort Colors](https://github.com/ly16/LC-Practice/blob/master/Rainbow%20Sort.java)|Medium|three points, four blocks (pointer)|
 |86|[Partition List](https://github.com/ly16/LC-Practice/blob/master/Partition%20Linked%20List.java)|Medium|two dummy heads, and concate (Linked List)|
 |94|[Binary Tree Inorder Traversal](https://github.com/ly16/LC-Practice/blob/master/In-order%20Traversal%20Of%20Binary%20Tree.java)|Medium|if use iterative way, consider cur node and stack is empty (DFS)|
+|100|[Same Tree](https://github.com/ly16/LC-Practice/blob/master/Symmetric%20Binary%20Tree.java)|Easy|every node should be same (DFS)|
 |101|[Symmetric Tree](https://github.com/ly16/LC-Practice/blob/master/Symmetric%20Binary%20Tree.java)|Easy|symmtric by the root (DFS)|
 |102|[Binary Tree Level Order Traversal](https://github.com/ly16/LC-Practice/blob/master/Get%20Keys%20In%20Binary%20Tree%20Layer%20By%20Layer.java)|Medium|BFS by level (BFS)|
 |103|[Binary Tree Zigzag Level Order Traversal](https://github.com/ly16/LC-Practice/blob/master/Get%20Keys%20In%20Binary%20Tree%20Layer%20By%20Layer%20Zig-Zag%20Order.java)|Medium|traverse binary tree layer by layer different direction (BFS)|
