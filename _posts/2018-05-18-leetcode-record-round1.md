@@ -41,6 +41,7 @@ tags:
 |107|[Binary Tree Level Order Traversal II](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Level%20Order%20Traversal%20II.java)|Easy|traverse layer by layer, reverse (BFS)|
 |110|[Balanced Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Balanced%20Binary%20Tree.java)|Easy|from lower to higher -1 (DFS)|
 |111|[Minimum Depth of Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Minimum%20Depth%20of%20Binary%20Tree.java)|Easy|left+right+1, cannot be 0 (DFS)|
+|112|[https://github.com/ly16/LC-Practice/blob/master/Path%20Sum.java](https://github.com/ly16/LC-Practice/blob/master/Path%20Sum.java)|Easy|reduced the current node.val (DFS)|
 |114|[Flatten Binary Tree to Linked List](https://github.com/ly16/LC-Practice/blob/master/Flatten%20Binary%20Tree%20to%20Linked%20List.java)|Medium|record the right child first (DFS)|
 |125|[Valid Palindrome](https://github.com/ly16/LC-Practice/blob/master/Valid%20palindrome.java)|Easy|remove the invalid from two ends to the middle (substr)|
 |127|[Word Ladder](https://github.com/ly16/LC-Practice/blob/master/Word%20Ladder.java)|Medium|change each char in the word to see in the dict, layer by layer (BFS)|
