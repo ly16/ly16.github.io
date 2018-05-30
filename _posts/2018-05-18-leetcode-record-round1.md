@@ -63,6 +63,7 @@ tags:
 |210|[Course Schedule II](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule%20II.java)|Medium|reverse the order of prerequisites (BFS)|
 |215|[Kth Largest Element in an Array](https://github.com/ly16/LC-Practice/blob/master/Kth%20Largest%20Element.java)|Medium|quick selection (sort)|
 |230|[Kth Smallest Element in a BST](https://github.com/ly16/LC-Practice/blob/master/Kth%20Smallest%20Element%20in%20a%20BST.java)|Medium|inorder traverse (DFS)|
+|235|[Lowest Common Ancestor of a Binary Search Tree](https://github.com/ly16/LC-Practice/blob/master/Lowest%20Common%20Ancestor%20I.java)|Easy|both not null return root (DFS)|
 |240|[Search a 2D Matrix II](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix%20II.java)|Medium|from the lower left (pointer)|
 |257|[Binary Tree Paths](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Paths.java)|Easy|a new string each level (DFS)|
 |259|[3Sum Smaller](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Smaller.java)|Medium|Don't move right, but count the interval of left and right (pointer)|
