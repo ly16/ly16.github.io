@@ -82,6 +82,7 @@ tags:
 |297|[Serialize and Deserialize Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Serialization.java)|Hard|print binary tree layer by layer (BFS)|
 |300|[Longest Increasing Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Ascending%20Subsequence.java)|Medium|First occurence (binary)|
 |409|[Longest Palindrome](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindrome.java)|Easy|The longest could be odd, so even + 1 (substr)|
+|450|[Delete Node in a BST](https://github.com/ly16/LC-Practice/blob/master/Delete%20Node%20in%20a%20BST.java)|Medium|find the smallest on right child (DFS)|
 |516|[Longest Palindromic Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Subsequence.java)|Medium|2d-dp as #5 (substr)|
 |653|[Two Sum IV - Input is a BST](https://github.com/ly16/LC-Practice/blob/master/Two%20Sum%20IV%20-%20Input%20is%20a%20BST.java)|Easy|same as two sum (pointer)|
 |658|[Find K Closest Elements](https://github.com/ly16/LC-Practice/blob/master/K%20Closest%20In%20Sorted%20Array.java)|Medium|last occurence (binary)|
@@ -90,4 +91,4 @@ tags:
 
 ______________________________________________
 
-###### Last Update: 05/30/2018
+###### Last Update: 05/31/2018
