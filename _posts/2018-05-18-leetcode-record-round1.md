@@ -38,7 +38,8 @@ tags:
 |102|[Binary Tree Level Order Traversal](https://github.com/ly16/LC-Practice/blob/master/Get%20Keys%20In%20Binary%20Tree%20Layer%20By%20Layer.java)|Medium|BFS by level (BFS)|
 |103|[Binary Tree Zigzag Level Order Traversal](https://github.com/ly16/LC-Practice/blob/master/Get%20Keys%20In%20Binary%20Tree%20Layer%20By%20Layer%20Zig-Zag%20Order.java)|Medium|traverse binary tree layer by layer different direction (BFS)|
 |104|[Maximum Depth of Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Maximum%20Depth%20of%20Binary%20Tree.java)|Easy|1+max(l,r) (DFS)|
-|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ly16/LC-Practice/blob/master/Reconstruct%20Binary%20Tree%20With%20Preorder%20And%20Inorder.java)|Medium|preorder index match inorder index (DFS)|
+|105|[Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/ly16/LC-Practice/blob/master/Reconstruct%20Binary%20Tree%20With%20Preorder%20And%20Inorder.java)|Medium|find the root index in inorder (DFS)|
+|106|[Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/ly16/LC-Practice/blob/master/Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal.java)|Medium|find the root in inorder (DFS)|
 |107|[Binary Tree Level Order Traversal II](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Level%20Order%20Traversal%20II.java)|Easy|traverse layer by layer, reverse (BFS)|
 |108|[Convert Sorted Array to Binary Search Tree](https://github.com/ly16/LC-Practice/blob/master/Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree%20With%20Minimal%20Height.java)|Easy|two pointers (tree)|
 |109|[Convert Sorted List to Binary Search Tree](https://github.com/ly16/LC-Practice/blob/master/Convert%20Sorted%20List%20to%20Binary%20Search%20Tree.java)|Medium|modifed find linked list middle (DFS)|
