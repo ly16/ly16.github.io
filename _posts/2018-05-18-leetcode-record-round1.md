@@ -30,6 +30,7 @@ tags:
 |69|[Sqrt(x)](https://github.com/ly16/LC-Practice/blob/master/Sqrt(x).java)|Easy|Last occurence, left move first (binary)|
 |74|[Search a 2D Matrix](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix.java)|Medium|transfer from matrix into a array (binary)|
 |75|[Sort Colors](https://github.com/ly16/LC-Practice/blob/master/Rainbow%20Sort.java)|Medium|three points, four blocks (pointer)|
+|78|[Subsets](https://github.com/ly16/LC-Practice/blob/master/All%20Subsets%20I.java)|Medium|add, dfs and remove (DFS)|
 |86|[Partition List](https://github.com/ly16/LC-Practice/blob/master/Partition%20Linked%20List.java)|Medium|two dummy heads, and concate (Linked List)|
 |94|[Binary Tree Inorder Traversal](https://github.com/ly16/LC-Practice/blob/master/In-order%20Traversal%20Of%20Binary%20Tree.java)|Medium|if use iterative way, consider cur node and stack is empty (DFS)|
 |98|[Validate Binary Search Tree](https://github.com/ly16/LC-Practice/blob/master/Validate%20Binary%20Search%20Tree.java)|Medium|long type (DFS)|
