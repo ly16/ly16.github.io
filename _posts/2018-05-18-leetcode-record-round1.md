@@ -30,6 +30,7 @@ tags:
 |69|[Sqrt(x)](https://github.com/ly16/LC-Practice/blob/master/Sqrt(x).java)|Easy|Last occurence, left move first (binary)|
 |74|[Search a 2D Matrix](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix.java)|Medium|transfer from matrix into a array (binary)|
 |75|[Sort Colors](https://github.com/ly16/LC-Practice/blob/master/Rainbow%20Sort.java)|Medium|three points, four blocks (pointer)|
+|77|[Combinations](https://github.com/ly16/LC-Practice/blob/master/Combinations.java)|Medium|k is the size of each list (DFS)|
 |78|[Subsets](https://github.com/ly16/LC-Practice/blob/master/All%20Subsets%20I.java)|Medium|add, dfs and remove (DFS)|
 |86|[Partition List](https://github.com/ly16/LC-Practice/blob/master/Partition%20Linked%20List.java)|Medium|two dummy heads, and concate (Linked List)|
 |90|[Subsets II](https://github.com/ly16/LC-Practice/blob/master/All%20Subsets%20II.java)|Medium|for loop to keep each answer directly (DFS)|
@@ -93,4 +94,4 @@ tags:
 
 ______________________________________________
 
-###### Last Update: 05/31/2018
+###### Last Update: 06/01/2018
