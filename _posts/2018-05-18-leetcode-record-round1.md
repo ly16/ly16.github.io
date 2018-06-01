@@ -71,6 +71,7 @@ tags:
 |207|[Course Schedule](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule.java)|Medium|topological sort, result size == numCourses (BFS)|
 |210|[Course Schedule II](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule%20II.java)|Medium|reverse the order of prerequisites (BFS)|
 |215|[Kth Largest Element in an Array](https://github.com/ly16/LC-Practice/blob/master/Kth%20Largest%20Element.java)|Medium|quick selection (sort)|
+|216|[Combination Sum III](https://github.com/ly16/LC-Practice/blob/master/Combination%20Sum%20III.java)|Medium|only 1~9 are needed (DFS)|
 |230|[Kth Smallest Element in a BST](https://github.com/ly16/LC-Practice/blob/master/Kth%20Smallest%20Element%20in%20a%20BST.java)|Medium|inorder traverse (DFS)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://github.com/ly16/LC-Practice/blob/master/Lowest%20Common%20Ancestor%20I.java)|Easy|both not null return root (DFS)|
 |236|[Lowest Common Ancestor of a Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Lowest%20Common%20Ancestor%20I.java)|Medium|not sure existed (DFS)|
