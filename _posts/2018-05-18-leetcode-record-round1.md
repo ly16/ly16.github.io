@@ -61,6 +61,7 @@ tags:
 |131|[Palindrome Partitioning](https://github.com/ly16/LC-Practice/blob/master/Palindrome%20Partitioning.java)|Medium|substring to partition (DFS)|
 |133|[Clone Graph](https://github.com/ly16/LC-Practice/blob/master/Copy%20Graph.java)|Medium|bfs without layers (BFS)|
 |139|[Word Break](https://github.com/ly16/LC-Practice/blob/master/Word%20Break.java)|Medium|true connect cut points (dp)|
+|140|[Word Break II](https://github.com/ly16/LC-Practice/blob/master/Word%20Break%20II.java)|Hard|the order is reversed after dfs (DFS)|
 |141|[Linked List Cycle](https://github.com/ly16/LC-Practice/blob/master/Check%20If%20Linked%20List%20Has%20A%20Cycle.java)|Easy|slow & fast pointer (linked list)|
 |142|[Linked List Cycle II](https://github.com/ly16/LC-Practice/blob/master/Linked%20List%20Cycle%20II.java)|Medium|slow and fast pointer (linked list)|
 |144|[Binary Tree Preorder Traversal](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Preorder%20Traversal.java)|Medium|reverse the order, so right move in first for iterative method (DFS)|
