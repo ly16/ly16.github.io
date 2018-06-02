@@ -56,6 +56,7 @@ tags:
 |125|[Valid Palindrome](https://github.com/ly16/LC-Practice/blob/master/Valid%20palindrome.java)|Easy|remove the invalid from two ends to the middle (substr)|
 |127|[Word Ladder](https://github.com/ly16/LC-Practice/blob/master/Word%20Ladder.java)|Medium|change each char in the word to see in the dict, layer by layer (BFS)|
 |130|[Surrounded Regions](https://github.com/ly16/LC-Practice/blob/master/Surrounded%20Regions.java)|Medium|up to down, left to right (BFS)|
+|131|[Palindrome Partitioning](https://github.com/ly16/LC-Practice/blob/master/Palindrome%20Partitioning.java)|Medium|substring to partition (DFS)|
 |133|[Clone Graph](https://github.com/ly16/LC-Practice/blob/master/Copy%20Graph.java)|Medium|bfs without layers (BFS)|
 |141|[Linked List Cycle](https://github.com/ly16/LC-Practice/blob/master/Check%20If%20Linked%20List%20Has%20A%20Cycle.java)|Easy|slow & fast pointer (linked list)|
 |142|[Linked List Cycle II](https://github.com/ly16/LC-Practice/blob/master/Linked%20List%20Cycle%20II.java)|Medium|slow and fast pointer (linked list)|
