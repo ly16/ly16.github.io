@@ -27,6 +27,7 @@ tags:
 |35|[Search Insert Position](https://github.com/ly16/LC-Practice/blob/master/Search%20Insert%20Position.java)|Easy|Last occurence, move the left first (binary)|
 |39|[Combination Sum](https://github.com/ly16/LC-Practice/blob/master/Combination%20Sum.java)|Medium|repeatly use elements (DFS)|
 |40|[Combination Sum II](https://github.com/ly16/LC-Practice/blob/master/Combination%20Sum%20II.java)|Medium|no duplicate like subset ii (DFS)|
+|44|[Wildcard Matching](https://github.com/ly16/LC-Practice/blob/master/Wildcard%20Matching.java)|Hard|seperate star, question sign and DP record (DFS)|
 |50|[Pow(x, n)](https://github.com/ly16/LC-Practice/blob/master/Pow(x%2C%20n).java)|Medium|x^n = x^(n/2) * x^(n/2) (binary)|
 |57|[3Sum](https://github.com/ly16/LC-Practice/blob/master/3%20Sum.java)|Medium|(pointer)|
 |69|[Sqrt(x)](https://github.com/ly16/LC-Practice/blob/master/Sqrt(x).java)|Easy|Last occurence, left move first (binary)|
