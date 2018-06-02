@@ -18,6 +18,7 @@ tags:
 |1|[Two Sum](https://github.com/ly16/LC-Practice/blob/master/2%20Sum.java)|Easy|(hashMap)|
 |3|[Longest Substring Without Repeating Characters](https://github.com/ly16/LC-Practice/blob/master/Longest%20Substring%20Without%20Repeating%20Characters.java)|Medium|slow and fast, to the new position (pointer)|
 |5|[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium|Even or odd length (substr)|
+|10|[Regular Expression Matching](https://github.com/ly16/LC-Practice/blob/master/Regular%20Expression%20Matching.java)|Hard| dp + dfs, similar to the wildcard, but * is only same as presending (DFS)|
 |16|[3Sum Closest](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Closest.java)|Medium|first theree numbers as inital sum (pointer)|
 |18|[4Sum](https://github.com/ly16/LC-Practice/blob/master/4%20Sum.java)|Medium|one addition + 3sum (pointer)|
 |26|[Remove Duplicates from Sorted Array](https://github.com/ly16/LC-Practice/blob/master/Array%20Deduplication%20I.java)|Easy|(pointer)|
