@@ -92,6 +92,7 @@ tags:
 |285|[Inorder Successor in BST](https://github.com/ly16/LC-Practice/blob/master/Inorder%20Successor%20in%20BST.java)|Medium|find the target and than to the right child and left first (tree)|
 |297|[Serialize and Deserialize Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Serialization.java)|Hard|print binary tree layer by layer (BFS)|
 |300|[Longest Increasing Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Ascending%20Subsequence.java)|Medium|First occurence (binary)|
+|301|[Remove Invalid Parentheses](https://github.com/ly16/LC-Practice/blob/master/Remove%20Invalid%20Parentheses.java)|Hard| substring to remove the current char (DFS)|
 |409|[Longest Palindrome](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindrome.java)|Easy|The longest could be odd, so even + 1 (substr)|
 |450|[Delete Node in a BST](https://github.com/ly16/LC-Practice/blob/master/Delete%20Node%20in%20a%20BST.java)|Medium|find the smallest on right child (DFS)|
 |516|[Longest Palindromic Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Subsequence.java)|Medium|2d-dp as #5 (substr)|
