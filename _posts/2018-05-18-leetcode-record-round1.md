@@ -36,6 +36,7 @@ tags:
 |51|[N-Queens](https://github.com/ly16/LC-Practice/blob/master/N%20Queens.java)|Hard|use Arraylist to record the col value and row index (DFS)|
 |52|[N-Queens II](https://github.com/ly16/LC-Practice/blob/master/N-Queens%20II.java)|Hard|easier version of n-queen, only count distinct number (DFS)|
 |57|[3Sum](https://github.com/ly16/LC-Practice/blob/master/3%20Sum.java)|Medium|(pointer)|
+|60|[Permutation Sequence](https://github.com/ly16/LC-Practice/blob/master/Permutation%20Sequence.java)|Medium|find index k/factor and update k = k%factor (math)|
 |69|[Sqrt(x)](https://github.com/ly16/LC-Practice/blob/master/Sqrt(x).java)|Easy|Last occurence, left move first (binary)|
 |74|[Search a 2D Matrix](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix.java)|Medium|transfer from matrix into a array (binary)|
 |75|[Sort Colors](https://github.com/ly16/LC-Practice/blob/master/Rainbow%20Sort.java)|Medium|three points, four blocks (pointer)|
