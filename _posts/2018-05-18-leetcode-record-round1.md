@@ -33,6 +33,7 @@ tags:
 |46|[Permutations](https://github.com/ly16/LC-Practice/blob/master/Permutations.java)|Medium|different from subset, i is from 0 not from start (DFS)|
 |47|[Permutations II](https://github.com/ly16/LC-Practice/blob/master/Permutations%20II.java)|Medium|check the duplications, boolean array (DFS)|
 |50|[Pow(x, n)](https://github.com/ly16/LC-Practice/blob/master/Pow(x%2C%20n).java)|Medium|x^n = x^(n/2) * x^(n/2) (binary)|
+|51|[N-Queens](https://github.com/ly16/LC-Practice/blob/master/N%20Queens.java)|Hard|use Arraylist to record the col value and row index (DFS)|
 |57|[3Sum](https://github.com/ly16/LC-Practice/blob/master/3%20Sum.java)|Medium|(pointer)|
 |69|[Sqrt(x)](https://github.com/ly16/LC-Practice/blob/master/Sqrt(x).java)|Easy|Last occurence, left move first (binary)|
 |74|[Search a 2D Matrix](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix.java)|Medium|transfer from matrix into a array (binary)|
