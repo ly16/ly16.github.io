@@ -105,8 +105,8 @@ tags:
 |653|[Two Sum IV - Input is a BST](https://github.com/ly16/LC-Practice/blob/master/Two%20Sum%20IV%20-%20Input%20is%20a%20BST.java)|Easy|same as two sum (pointer)|
 |658|[Find K Closest Elements](https://github.com/ly16/LC-Practice/blob/master/K%20Closest%20In%20Sorted%20Array.java)|Medium|last occurence (binary)|
 |680|[Valid Palindrome II](https://github.com/ly16/LC-Practice/blob/master/Valid%20Palindrome%20II.java)|Easy|(pointer)|
-
+|681|[Next Closest Time](https://github.com/ly16/LC-Practice/blob/master/Next%20Closest%20Time.java)|Medium|convert to miniute from integer (DFS)|
 
 ______________________________________________
 
-###### Last Update: 06/03/2018
+###### Last Update: 06/05/2018
