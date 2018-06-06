@@ -20,6 +20,7 @@ tags:
 |5|[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium|Even or odd length (substr)|
 |10|[Regular Expression Matching](https://github.com/ly16/LC-Practice/blob/master/Regular%20Expression%20Matching.java)|Hard| dp + dfs, similar to the wildcard, but * is only same as presending (DFS)|
 |16|[3Sum Closest](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Closest.java)|Medium|first theree numbers as inital sum (pointer)|
+|17|[Letter Combinations of a Phone Number](https://github.com/ly16/LC-Practice/blob/master/Letter%20Combinations%20of%20a%20Phone%20Number.java)|Medium|use hashmap to store number and chars (DFS)|
 |18|[4Sum](https://github.com/ly16/LC-Practice/blob/master/4%20Sum.java)|Medium|one addition + 3sum (pointer)|
 |26|[Remove Duplicates from Sorted Array](https://github.com/ly16/LC-Practice/blob/master/Array%20Deduplication%20I.java)|Easy|(pointer)|
 |28|[Implement strStr()](https://github.com/ly16/LC-Practice/blob/master/Determine%20If%20One%20String%20Is%20Another's%20Substring.java)|Easy|left the length of needle at the end (substr)|
