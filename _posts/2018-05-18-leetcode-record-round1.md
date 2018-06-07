@@ -100,6 +100,7 @@ tags:
 |283|[Move Zeroes](https://github.com/ly16/LC-Practice/blob/master/Move%200s%20To%20The%20End%20II.java)|Easy|slow records ans (pointer)|
 |285|[Inorder Successor in BST](https://github.com/ly16/LC-Practice/blob/master/Inorder%20Successor%20in%20BST.java)|Medium|find the target and than to the right child and left first (tree)|
 |290|[Word Pattern](https://github.com/ly16/LC-Practice/blob/master/Word%20Pattern.java)|Easy|match char and string (hashmap)|
+|291|[Word Pattern II](https://github.com/ly16/LC-Practice/blob/master/Word%20Pattern%20II.java)|Hard|DFS is boolean and use map and set to match char and string (DFS)|
 |297|[Serialize and Deserialize Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Serialization.java)|Hard|print binary tree layer by layer (BFS)|
 |300|[Longest Increasing Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Ascending%20Subsequence.java)|Medium|First occurence (binary)|
 |301|[Remove Invalid Parentheses](https://github.com/ly16/LC-Practice/blob/master/Remove%20Invalid%20Parentheses.java)|Hard| substring to remove the current char (DFS)|
