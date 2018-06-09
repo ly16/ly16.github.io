@@ -83,6 +83,7 @@ tags:
 |200|[Number of Islands](https://github.com/ly16/LC-Practice/blob/master/Number%20of%20Islands.java)|Medium|coordinate, change 1 to 0 after traverse (BFS)|
 |205|[Isomorphic Strings](https://github.com/ly16/LC-Practice/blob/master/Isomorphic%20Strings.java)|Easy|match char to char by hashmap (hashmap)|
 |207|[Course Schedule](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule.java)|Medium|topological sort, result size == numCourses (BFS)|
+|208|[Implement Trie (Prefix Tree)](https://github.com/ly16/LC-Practice/blob/master/Implement%20Trie%20(Prefix%20Tree).java)|Medium|if end return true, use c-'a' to determine the index in the array (tree)|
 |210|[Course Schedule II](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule%20II.java)|Medium|reverse the order of prerequisites (BFS)|
 |215|[Kth Largest Element in an Array](https://github.com/ly16/LC-Practice/blob/master/Kth%20Largest%20Element.java)|Medium|quick selection (sort)|
 |216|[Combination Sum III](https://github.com/ly16/LC-Practice/blob/master/Combination%20Sum%20III.java)|Medium|only 1~9 are needed (DFS)|
