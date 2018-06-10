@@ -64,6 +64,7 @@ tags:
 |114|[Flatten Binary Tree to Linked List](https://github.com/ly16/LC-Practice/blob/master/Flatten%20Binary%20Tree%20to%20Linked%20List.java)|Medium|record the right child first (DFS)|
 |124|[Binary Tree Maximum Path Sum](https://github.com/ly16/LC-Practice/blob/master/Maximum%20Path%20Sum%20Binary%20Tree%20II.java)|Hard|return half and connect together (DFS)|
 |125|[Valid Palindrome](https://github.com/ly16/LC-Practice/blob/master/Valid%20palindrome.java)|Easy|remove the invalid from two ends to the middle (substr)|
+|126|[Word Ladder II](https://github.com/ly16/LC-Practice/blob/master/Word%20Ladder%20II.java)|Hard|hashmap has a set as value to store the words one step away from cur word (BFS+DFS)|
 |127|[Word Ladder](https://github.com/ly16/LC-Practice/blob/master/Word%20Ladder.java)|Medium|change each char in the word to see in the dict, layer by layer (BFS)|
 |130|[Surrounded Regions](https://github.com/ly16/LC-Practice/blob/master/Surrounded%20Regions.java)|Medium|up to down, left to right (BFS)|
 |131|[Palindrome Partitioning](https://github.com/ly16/LC-Practice/blob/master/Palindrome%20Partitioning.java)|Medium|substring to partition (DFS)|
