@@ -89,6 +89,7 @@ tags:
 |212|[Word Search II](https://github.com/ly16/LC-Practice/blob/master/Word%20Search%20II.java)|Hard|use TrieNode, after find one word, put that end to null (DFS)|
 |215|[Kth Largest Element in an Array](https://github.com/ly16/LC-Practice/blob/master/Kth%20Largest%20Element.java)|Medium|quick selection (sort)|
 |216|[Combination Sum III](https://github.com/ly16/LC-Practice/blob/master/Combination%20Sum%20III.java)|Medium|only 1~9 are needed (DFS)|
+|225|[Implement Stack using Queues](https://github.com/ly16/LC-Practice/blob/master/Implement%20Stack%20by%20Two%20Queues.java)|Easy|deliver all elements (except the last element) to another queue and then swap two queues (design)|
 |230|[Kth Smallest Element in a BST](https://github.com/ly16/LC-Practice/blob/master/Kth%20Smallest%20Element%20in%20a%20BST.java)|Medium|inorder traverse (DFS)|
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://github.com/ly16/LC-Practice/blob/master/Lowest%20Common%20Ancestor%20I.java)|Easy|both not null return root (DFS)|
 |236|[Lowest Common Ancestor of a Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Lowest%20Common%20Ancestor%20I.java)|Medium|not sure existed (DFS)|
