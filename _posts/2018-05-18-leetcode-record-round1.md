@@ -99,6 +99,7 @@ tags:
 |257|[Binary Tree Paths](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Paths.java)|Easy|a new string each level (DFS)|
 |259|[3Sum Smaller](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Smaller.java)|Medium|Don't move right, but count the interval of left and right (pointer)|
 |261|[Graph Valid Tree](https://github.com/ly16/LC-Practice/blob/master/Graph%20Valid%20Tree.java)|Medium|construct graph and bfs (BFS)|
+|263|[Ugly Number](https://github.com/ly16/LC-Practice/blob/master/Ugly%20Number.%20java)|Easy|devided by 2,3,5 repeatedly (math)|
 |266|[Palindrome Permutation](https://github.com/ly16/LC-Practice/blob/master/Palindrome%20Permutation.java)|Easy|there should be no additional or only 1 additional char (hash table)|
 |267|[Palindrome Permutation II](https://github.com/ly16/LC-Practice/blob/master/Palindrome%20Permutation%20II.java)|Medium|half even number permutations, symmetric (DFS)|
 |269|[ Alien Dictionary](https://github.com/ly16/LC-Practice/blob/master/Alien%20Dictionary.java)|Hard|construct the map (BFS)|
