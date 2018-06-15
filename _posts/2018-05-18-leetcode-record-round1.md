@@ -22,7 +22,7 @@ tags:
 |16|[3Sum Closest](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Closest.java)|Medium|first theree numbers as inital sum (pointer)|
 |17|[Letter Combinations of a Phone Number](https://github.com/ly16/LC-Practice/blob/master/Letter%20Combinations%20of%20a%20Phone%20Number.java)|Medium|use hashmap to store number and chars (DFS)|
 |18|[4Sum](https://github.com/ly16/LC-Practice/blob/master/4%20Sum.java)|Medium|one addition + 3sum (pointer)|
-|21|[Merge Two Sorted Lists](https://github.com/ly16/LC-Practice/blob/master/Merge%20Two%20Sorted%20Linked%20Lists.java)|Easy| move the smaller node (ListNode)|
+|21|[Merge Two Sorted Lists](https://github.com/ly16/LC-Practice/blob/master/Merge%20Two%20Sorted%20Linked%20Lists.java)|Easy| move the smaller node (linked list)|
 |26|[Remove Duplicates from Sorted Array](https://github.com/ly16/LC-Practice/blob/master/Array%20Deduplication%20I.java)|Easy|(pointer)|
 |28|[Implement strStr()](https://github.com/ly16/LC-Practice/blob/master/Determine%20If%20One%20String%20Is%20Another's%20Substring.java)|Easy|left the length of needle at the end (substr)|
 |31|[Next Permutation](https://github.com/ly16/LC-Practice/blob/master/Next%20Permutation.java)|Medium|right side is descending order and reverse (pointer)|
