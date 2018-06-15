@@ -82,6 +82,7 @@ tags:
 |146|[LRU Cache](https://github.com/ly16/LC-Practice/blob/master/Implement%20LRU%20Cache.java)|Hard|if existed, remove and append; not existed, node new or update and append (design)|
 |148|[Sort List](https://github.com/ly16/LC-Practice/blob/master/Sort%20List.java)|Medium|merge sort and quick sort (sort)|
 |153|[Find Minimum in Rotated Sorted Array](https://github.com/ly16/LC-Practice/blob/master/Find%20Minimum%20in%20Rotated%20Sorted%20Array.java)|Medium|smallest one is in the right ascending part (binary)|
+|155|[Min Stack](https://github.com/ly16/LC-Practice/blob/master/Min%20Stack.java)|Easy|offer the min value of global min and current value to the minStack (design)|
 |162|[Find Peak Element](https://github.com/ly16/LC-Practice/blob/master/Find%20Peak%20Element.java)|Medium|nums[mid] < nums[mid + 1] (binary)|
 |167|[Two Sum II - Input array is sorted](https://github.com/ly16/LC-Practice/blob/master/2%20Sum%20II.java)|Easy|(pointer)|
 |170|[Two Sum III - Data structure design](https://github.com/ly16/LC-Practice/blob/master/Two%20Sum%20III%20-%20Data%20structure%20design.java)|Easy|list can change length (hashMap)|
