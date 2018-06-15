@@ -114,6 +114,7 @@ tags:
 |301|[Remove Invalid Parentheses](https://github.com/ly16/LC-Practice/blob/master/Remove%20Invalid%20Parentheses.java)|Hard| substring to remove the current char (DFS)|
 |346|[Moving Average from Data Stream](https://github.com/ly16/LC-Practice/blob/master/Moving%20Average%20from%20Data%20Stream.java)|Easy|sliding window by the queue (design)|
 |380|[Insert Delete GetRandom O(1)](https://github.com/ly16/LC-Practice/blob/master/Insert%20Delete%20GetRandom%20O(1).java)|Medium|import java.util.Random, arrayList swap with the last item and delete (design)|
+|381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/ly16/LC-Practice/blob/master/Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.java)|Hard|copy the last element to replace the target, and remove the last item; also update the position in the map (design)|
 |387|[First Unique Character in a String](https://github.com/ly16/LC-Practice/blob/master/First%20Unique%20Character%20in%20a%20String.java)|Easy|use int[256] to record time of occurance (hashtable)|
 |409|[Longest Palindrome](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindrome.java)|Easy|The longest could be odd, so even + 1 (substr)|
 |450|[Delete Node in a BST](https://github.com/ly16/LC-Practice/blob/master/Delete%20Node%20in%20a%20BST.java)|Medium|find the smallest on right child (DFS)|
