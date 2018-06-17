@@ -123,6 +123,7 @@ tags:
 |300|[Longest Increasing Subsequence](https://github.com/ly16/LC-Practice/blob/master/Longest%20Ascending%20Subsequence.java)|Medium|First occurence (binary)|
 |301|[Remove Invalid Parentheses](https://github.com/ly16/LC-Practice/blob/master/Remove%20Invalid%20Parentheses.java)|Hard| substring to remove the current char (DFS)|
 |346|[Moving Average from Data Stream](https://github.com/ly16/LC-Practice/blob/master/Moving%20Average%20from%20Data%20Stream.java)|Easy|sliding window by the queue (design)|
+|347|[Top K Frequent Elements](https://github.com/ly16/LC-Practice/blob/master/Top%20K%20Frequent%20Elements.java)|Medium|use hashmap to count the frequency (pq)|
 |380|[Insert Delete GetRandom O(1)](https://github.com/ly16/LC-Practice/blob/master/Insert%20Delete%20GetRandom%20O(1).java)|Medium|import java.util.Random, arrayList swap with the last item and delete (design)|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/ly16/LC-Practice/blob/master/Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.java)|Hard|copy the last element to replace the target, and remove the last item; also update the position in the map (design)|
 |387|[First Unique Character in a String](https://github.com/ly16/LC-Practice/blob/master/First%20Unique%20Character%20in%20a%20String.java)|Easy|use int[256] to record time of occurance (hashtable)|
