@@ -95,6 +95,7 @@ tags:
 |205|[Isomorphic Strings](https://github.com/ly16/LC-Practice/blob/master/Isomorphic%20Strings.java)|Easy|match char to char by hashmap (hashmap)|
 |207|[Course Schedule](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule.java)|Medium|topological sort, result size == numCourses (BFS)|
 |208|[Implement Trie (Prefix Tree)](https://github.com/ly16/LC-Practice/blob/master/Implement%20Trie%20(Prefix%20Tree).java)|Medium|if end return true, use c-'a' to determine the index in the array (tree)|
+|209|[Minimum Size Subarray Sum](https://github.com/ly16/LC-Practice/blob/master/Minimum%20Size%20Subarray%20Sum.java)|Medium| move right pointer first until >= s, then move left pointer to reduce the size (pointer)|
 |210|[Course Schedule II](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule%20II.java)|Medium|reverse the order of prerequisites (BFS)|
 |212|[Word Search II](https://github.com/ly16/LC-Practice/blob/master/Word%20Search%20II.java)|Hard|use TrieNode, after find one word, put that end to null (DFS)|
 |215|[Kth Largest Element in an Array](https://github.com/ly16/LC-Practice/blob/master/Kth%20Largest%20Element.java)|Medium|quick selection (sort)|
