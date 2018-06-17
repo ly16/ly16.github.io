@@ -39,6 +39,7 @@ tags:
 |50|[Pow(x, n)](https://github.com/ly16/LC-Practice/blob/master/Pow(x%2C%20n).java)|Medium|x^n = x^(n/2) * x^(n/2) (binary)|
 |51|[N-Queens](https://github.com/ly16/LC-Practice/blob/master/N%20Queens.java)|Hard|use Arraylist to record the col value and row index (DFS)|
 |52|[N-Queens II](https://github.com/ly16/LC-Practice/blob/master/N-Queens%20II.java)|Hard|easier version of n-queen, only count distinct number (DFS)|
+|53|[Maximum Subarray](https://github.com/ly16/LC-Practice/blob/master/Maximum%20Subarray.java)|Easy|find the Math.max(current value, accumulation of previous sum) (dp)|
 |57|[3Sum](https://github.com/ly16/LC-Practice/blob/master/3%20Sum.java)|Medium|(pointer)|
 |60|[Permutation Sequence](https://github.com/ly16/LC-Practice/blob/master/Permutation%20Sequence.java)|Medium|find index k/factor and update k = k%factor (math)|
 |69|[Sqrt(x)](https://github.com/ly16/LC-Practice/blob/master/Sqrt(x).java)|Easy|Last occurence, left move first (binary)|
