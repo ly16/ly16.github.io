@@ -69,6 +69,7 @@ tags:
 |111|[Minimum Depth of Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Minimum%20Depth%20of%20Binary%20Tree.java)|Easy|left+right+1, cannot be 0 (DFS)|
 |112|[https://github.com/ly16/LC-Practice/blob/master/Path%20Sum.java](https://github.com/ly16/LC-Practice/blob/master/Path%20Sum.java)|Easy|reduced the current node.val (DFS)|
 |114|[Flatten Binary Tree to Linked List](https://github.com/ly16/LC-Practice/blob/master/Flatten%20Binary%20Tree%20to%20Linked%20List.java)|Medium|record the right child first (DFS)|
+|121|[Best Time to Buy and Sell Stock](https://github.com/ly16/LC-Practice/blob/master/Best%20Time%20to%20Buy%20and%20Sell%20Stock.java)|Easy|update the min and the max profit (dp)|
 |124|[Binary Tree Maximum Path Sum](https://github.com/ly16/LC-Practice/blob/master/Maximum%20Path%20Sum%20Binary%20Tree%20II.java)|Hard|return half and connect together (DFS)|
 |125|[Valid Palindrome](https://github.com/ly16/LC-Practice/blob/master/Valid%20palindrome.java)|Easy|remove the invalid from two ends to the middle (substr)|
 |126|[Word Ladder II](https://github.com/ly16/LC-Practice/blob/master/Word%20Ladder%20II.java)|Hard|hashmap has a set as value to store the words one step away from cur word (BFS+DFS)|
