@@ -20,6 +20,7 @@ tags:
 |4|[Median of Two Sorted Arrays](https://github.com/ly16/LC-Practice/blob/master/Median%20Of%20Two%20Sorted%20Arrays.java)|Hard|delete the smaller half (binary)|
 |5|[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium|Even or odd length (substr)|
 |10|[Regular Expression Matching](https://github.com/ly16/LC-Practice/blob/master/Regular%20Expression%20Matching.java)|Hard| dp + dfs, similar to the wildcard, but * is only same as presending (DFS)|
+|15|[3Sum](https://github.com/ly16/LC-Practice/blob/master/3%20Sum.java)|Medium|(pointer)|
 |16|[3Sum Closest](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Closest.java)|Medium|first theree numbers as inital sum (pointer)|
 |17|[Letter Combinations of a Phone Number](https://github.com/ly16/LC-Practice/blob/master/Letter%20Combinations%20of%20a%20Phone%20Number.java)|Medium|use hashmap to store number and chars (DFS)|
 |18|[4Sum](https://github.com/ly16/LC-Practice/blob/master/4%20Sum.java)|Medium|one addition + 3sum (pointer)|
@@ -40,7 +41,7 @@ tags:
 |51|[N-Queens](https://github.com/ly16/LC-Practice/blob/master/N%20Queens.java)|Hard|use Arraylist to record the col value and row index (DFS)|
 |52|[N-Queens II](https://github.com/ly16/LC-Practice/blob/master/N-Queens%20II.java)|Hard|easier version of n-queen, only count distinct number (DFS)|
 |53|[Maximum Subarray](https://github.com/ly16/LC-Practice/blob/master/Maximum%20Subarray.java)|Easy|find the Math.max(current value, accumulation of previous sum) (dp)|
-|57|[3Sum](https://github.com/ly16/LC-Practice/blob/master/3%20Sum.java)|Medium|(pointer)|
+|57|[Insert Interval](https://github.com/ly16/LC-Practice/blob/master/Insert%20Interval.java)|Hard|compare the last.end and item.start; do the combination if necessary (sort)|
 |60|[Permutation Sequence](https://github.com/ly16/LC-Practice/blob/master/Permutation%20Sequence.java)|Medium|find index k/factor and update k = k%factor (math)|
 |69|[Sqrt(x)](https://github.com/ly16/LC-Practice/blob/master/Sqrt(x).java)|Easy|Last occurence, left move first (binary)|
 |70|[Climbing Stairs](https://github.com/ly16/LC-Practice/blob/master/Climbing%20Stairs.java)|Easy|the methods for current time = sum of methods for previous two times (dp)|
