@@ -93,6 +93,7 @@ tags:
 |167|[Two Sum II - Input array is sorted](https://github.com/ly16/LC-Practice/blob/master/2%20Sum%20II.java)|Easy|(pointer)|
 |170|[Two Sum III - Data structure design](https://github.com/ly16/LC-Practice/blob/master/Two%20Sum%20III%20-%20Data%20structure%20design.java)|Easy|list can change length (hashMap)|
 |173|[Binary Search Tree Iterator](https://github.com/ly16/LC-Practice/blob/master/Binary%20Search%20Tree%20Iterator.java)|Medium|find the smallest left first and then right, inorder (tree)|
+|198|[House Robber](https://github.com/ly16/LC-Practice/blob/master/House%20Robber.java)|Easy|f(k) = Math.max(f(k-2) + x, f(k-1)) (dp)|
 |200|[Number of Islands](https://github.com/ly16/LC-Practice/blob/master/Number%20of%20Islands.java)|Medium|coordinate, change 1 to 0 after traverse (BFS)|
 |205|[Isomorphic Strings](https://github.com/ly16/LC-Practice/blob/master/Isomorphic%20Strings.java)|Easy|match char to char by hashmap (hashmap)|
 |207|[Course Schedule](https://github.com/ly16/LC-Practice/blob/master/Course%20Schedule.java)|Medium|topological sort, result size == numCourses (BFS)|
