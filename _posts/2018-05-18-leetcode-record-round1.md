@@ -111,6 +111,7 @@ tags:
 |235|[Lowest Common Ancestor of a Binary Search Tree](https://github.com/ly16/LC-Practice/blob/master/Lowest%20Common%20Ancestor%20I.java)|Easy|both not null return root (DFS)|
 |236|[Lowest Common Ancestor of a Binary Tree](https://github.com/ly16/LC-Practice/blob/master/Lowest%20Common%20Ancestor%20I.java)|Medium|not sure existed (DFS)|
 |240|[Search a 2D Matrix II](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix%20II.java)|Medium|from the lower left (pointer)|
+|252|[Meeting Rooms](https://github.com/ly16/LC-Practice/blob/master/Meeting%20Rooms.java)|Easy|sort by Arrays.sort and determine whether the first.end < second.start (sort)|
 |257|[Binary Tree Paths](https://github.com/ly16/LC-Practice/blob/master/Binary%20Tree%20Paths.java)|Easy|a new string each level (DFS)|
 |259|[3Sum Smaller](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Smaller.java)|Medium|Don't move right, but count the interval of left and right (pointer)|
 |261|[Graph Valid Tree](https://github.com/ly16/LC-Practice/blob/master/Graph%20Valid%20Tree.java)|Medium|construct graph and bfs (BFS)|
