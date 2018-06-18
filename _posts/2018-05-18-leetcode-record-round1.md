@@ -146,6 +146,7 @@ tags:
 |658|[Find K Closest Elements](https://github.com/ly16/LC-Practice/blob/master/K%20Closest%20In%20Sorted%20Array.java)|Medium|last occurence (binary)|
 |680|[Valid Palindrome II](https://github.com/ly16/LC-Practice/blob/master/Valid%20Palindrome%20II.java)|Easy|(pointer)|
 |681|[Next Closest Time](https://github.com/ly16/LC-Practice/blob/master/Next%20Closest%20Time.java)|Medium|convert to miniute from integer (DFS)|
+|697|[Degree of an Array](https://github.com/ly16/LC-Practice/blob/master/Degree%20of%20an%20Array.java)|Easy|use three hashmap to record count, left, and right index (hashmap)|
 
 ______________________________________________
 
