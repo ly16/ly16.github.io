@@ -120,6 +120,7 @@ tags:
 |264|[Ugly Number II](https://github.com/ly16/LC-Practice/blob/master/Ugly%20Number%20II.java)|Medium|index times factor and compare each possible products (dp)|
 |266|[Palindrome Permutation](https://github.com/ly16/LC-Practice/blob/master/Palindrome%20Permutation.java)|Easy|there should be no additional or only 1 additional char (hash table)|
 |267|[Palindrome Permutation II](https://github.com/ly16/LC-Practice/blob/master/Palindrome%20Permutation%20II.java)|Medium|half even number permutations, symmetric (DFS)|
+|268|[Missing Number](https://github.com/ly16/LC-Practice/blob/master/Missing%20Number.java)|Easy|add maxLen = nums.length to do ^ (math)|
 |269|[ Alien Dictionary](https://github.com/ly16/LC-Practice/blob/master/Alien%20Dictionary.java)|Hard|construct the map (BFS)|
 |270|[Closest Binary Search Tree Value](https://github.com/ly16/LC-Practice/blob/master/Closest%20Number%20In%20Binary%20Search%20Tree.java)|Easy|the property of BST (tree)|
 |272|[Closest Binary Search Tree Value II](https://github.com/ly16/LC-Practice/blob/master/Closest%20Binary%20Search%20Tree%20Value%20II.java)|Hard|two stack, two pointers (tree)|
