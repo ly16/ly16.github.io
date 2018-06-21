@@ -127,6 +127,7 @@ tags:
 |278|[First Bad Version](https://github.com/ly16/LC-Practice/blob/master/First%20Bad%20Version.java)|Easy|first occurance, move the right first (binary)|
 |283|[Move Zeroes](https://github.com/ly16/LC-Practice/blob/master/Move%200s%20To%20The%20End%20II.java)|Easy|slow records ans (pointer)|
 |285|[Inorder Successor in BST](https://github.com/ly16/LC-Practice/blob/master/Inorder%20Successor%20in%20BST.java)|Medium|find the target and than to the right child and left first (tree)|
+|287|[Find the Duplicate Number](https://github.com/ly16/LC-Practice/blob/master/Find%20the%20Duplicate%20Number.java)|Medium| similar to the cycle in linked list（pointer）|
 |290|[Word Pattern](https://github.com/ly16/LC-Practice/blob/master/Word%20Pattern.java)|Easy|match char and string (hashmap)|
 |291|[Word Pattern II](https://github.com/ly16/LC-Practice/blob/master/Word%20Pattern%20II.java)|Hard|DFS is boolean and use map and set to match char and string (DFS)|
 |295|[Find Median from Data Stream](https://github.com/ly16/LC-Practice/blob/master/Median%20Tracker.java)|Hard|smallHalf uses a maxHeap; largeHalf uses a minHeap (design)|
