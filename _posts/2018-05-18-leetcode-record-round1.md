@@ -51,6 +51,7 @@ tags:
 |77|[Combinations](https://github.com/ly16/LC-Practice/blob/master/Combinations.java)|Medium|k is the size of each list (DFS)|
 |78|[Subsets](https://github.com/ly16/LC-Practice/blob/master/All%20Subsets%20I.java)|Medium|add, dfs and remove (DFS)|
 |79|[Word Search](https://github.com/ly16/LC-Practice/blob/master/Word%20Search.java)|Medium|i +/- 1 and j +/- 1 keep the order, i together and j together (DFS)|
+|81|[Search in Rotated Sorted Array II](https://github.com/ly16/LC-Practice/blob/master/Search%20in%20Rotated%20Sorted%20Array%20II.java)|Medium|compare value at left and mid sites and if same just left++ to remove the duplications (binary)|
 |83|[Remove Duplicates from Sorted List](https://github.com/ly16/LC-Practice/blob/master/Remove%20Duplicates%20from%20Sorted%20List.java)|Easy|one pointer node (linked list)|
 |86|[Partition List](https://github.com/ly16/LC-Practice/blob/master/Partition%20Linked%20List.java)|Medium|two dummy heads, and concate (Linked List)|
 |88|[Merge Sorted Array](https://github.com/ly16/LC-Practice/blob/master/Merge%20Sorted%20Array.java)|Easy|from the end to the beginning (pointer)|
