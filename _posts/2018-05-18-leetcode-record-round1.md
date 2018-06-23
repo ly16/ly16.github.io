@@ -20,6 +20,7 @@ tags:
 |4|[Median of Two Sorted Arrays](https://github.com/ly16/LC-Practice/blob/master/Median%20Of%20Two%20Sorted%20Arrays.java)|Hard|delete the smaller half (binary)|
 |5|[Longest Palindromic Substring](https://github.com/ly16/LC-Practice/blob/master/Longest%20Palindromic%20Substring.java)|Medium|Even or odd length (substr)|
 |10|[Regular Expression Matching](https://github.com/ly16/LC-Practice/blob/master/Regular%20Expression%20Matching.java)|Hard| dp + dfs, similar to the wildcard, but * is only same as presending (DFS)|
+|12|[Integer to Roman](https://github.com/ly16/LC-Practice/blob/master/Integer%20to%20Roman.java)|Medium|list all the possible sites (math)|
 |15|[3Sum](https://github.com/ly16/LC-Practice/blob/master/3%20Sum.java)|Medium|(pointer)|
 |16|[3Sum Closest](https://github.com/ly16/LC-Practice/blob/master/3Sum%20Closest.java)|Medium|first theree numbers as inital sum (pointer)|
 |17|[Letter Combinations of a Phone Number](https://github.com/ly16/LC-Practice/blob/master/Letter%20Combinations%20of%20a%20Phone%20Number.java)|Medium|use hashmap to store number and chars (DFS)|
