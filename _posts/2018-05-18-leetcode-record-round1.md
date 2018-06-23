@@ -92,7 +92,7 @@ tags:
 |148|[Sort List](https://github.com/ly16/LC-Practice/blob/master/Sort%20List.java)|Medium|merge sort and quick sort (sort)|
 |152|[Maximum Product Subarray](https://github.com/ly16/LC-Practice/blob/master/Maximum%20Product%20Subarray.java)|Medium|if negative, change max and min value (dp)|
 |153|[Find Minimum in Rotated Sorted Array](https://github.com/ly16/LC-Practice/blob/master/Find%20Minimum%20in%20Rotated%20Sorted%20Array.java)|Medium|smallest one is in the right ascending part (binary)|
-|154|[Find Minimum in Rotated Sorted Array II](https://github.com/ly16/LC-Practice/blob/master/Search%20in%20Rotated%20Sorted%20Array%20II.java)|Medium|just compare the mid and right, and remove the duplications by right-- (binary)|
+|154|[Find Minimum in Rotated Sorted Array II](https://github.com/ly16/LC-Practice/blob/master/Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II.java)|Medium|just compare the mid and right, and remove the duplications by right-- (binary)|
 |155|[Min Stack](https://github.com/ly16/LC-Practice/blob/master/Min%20Stack.java)|Easy|offer the min value of global min and current value to the minStack (design)|
 |162|[Find Peak Element](https://github.com/ly16/LC-Practice/blob/master/Find%20Peak%20Element.java)|Medium|nums[mid] < nums[mid + 1] (binary)|
 |167|[Two Sum II - Input array is sorted](https://github.com/ly16/LC-Practice/blob/master/2%20Sum%20II.java)|Easy|(pointer)|
