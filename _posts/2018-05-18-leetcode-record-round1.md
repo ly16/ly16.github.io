@@ -46,6 +46,7 @@ tags:
 |56|[Merge Intervals](https://github.com/ly16/LC-Practice/blob/master/Merge%20Intervals.java)|Medium|sort the interval.start by implementing compare function(sort)|
 |57|[Insert Interval](https://github.com/ly16/LC-Practice/blob/master/Insert%20Interval.java)|Hard|compare the last.end and item.start; do the combination if necessary (sort)|
 |60|[Permutation Sequence](https://github.com/ly16/LC-Practice/blob/master/Permutation%20Sequence.java)|Medium|find index k/factor and update k = k%factor (math)|
+|67|[Add Binary](https://github.com/ly16/LC-Practice/blob/master/Add%20Binary.java)|Easy|add the carry to the sum for next step (math)|
 |69|[Sqrt(x)](https://github.com/ly16/LC-Practice/blob/master/Sqrt(x).java)|Easy|Last occurence, left move first (binary)|
 |70|[Climbing Stairs](https://github.com/ly16/LC-Practice/blob/master/Climbing%20Stairs.java)|Easy|the methods for current time = sum of methods for previous two times (dp)|
 |74|[Search a 2D Matrix](https://github.com/ly16/LC-Practice/blob/master/Search%20a%202D%20Matrix.java)|Medium|transfer from matrix into a array (binary)|
