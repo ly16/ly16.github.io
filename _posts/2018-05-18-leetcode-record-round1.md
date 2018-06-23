@@ -97,6 +97,7 @@ tags:
 |155|[Min Stack](https://github.com/ly16/LC-Practice/blob/master/Min%20Stack.java)|Easy|offer the min value of global min and current value to the minStack (design)|
 |162|[Find Peak Element](https://github.com/ly16/LC-Practice/blob/master/Find%20Peak%20Element.java)|Medium|nums[mid] < nums[mid + 1] (binary)|
 |167|[Two Sum II - Input array is sorted](https://github.com/ly16/LC-Practice/blob/master/2%20Sum%20II.java)|Easy|(pointer)|
+|168|[Excel Sheet Column Title](https://github.com/ly16/LC-Practice/blob/master/Excel%20Sheet%20Column%20Title.java)|Easy|'A' + n - 1 to get the new char (math)|
 |170|[Two Sum III - Data structure design](https://github.com/ly16/LC-Practice/blob/master/Two%20Sum%20III%20-%20Data%20structure%20design.java)|Easy|list can change length (hashMap)|
 |173|[Binary Search Tree Iterator](https://github.com/ly16/LC-Practice/blob/master/Binary%20Search%20Tree%20Iterator.java)|Medium|find the smallest left first and then right, inorder (tree)|
 |198|[House Robber](https://github.com/ly16/LC-Practice/blob/master/House%20Robber.java)|Easy|f(k) = Math.max(f(k-2) + x, f(k-1)) (dp)|
