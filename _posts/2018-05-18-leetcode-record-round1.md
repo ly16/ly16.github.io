@@ -144,6 +144,7 @@ tags:
 |346|[Moving Average from Data Stream](https://github.com/ly16/LC-Practice/blob/master/Moving%20Average%20from%20Data%20Stream.java)|Easy|sliding window by the queue (design)|
 |347|[Top K Frequent Elements](https://github.com/ly16/LC-Practice/blob/master/Top%20K%20Frequent%20Elements.java)|Medium|use hashmap to count the frequency (pq)|
 |349|[Intersection of Two Arrays](https://github.com/ly16/LC-Practice/blob/master/Intersection%20of%20Two%20Arrays.java)|Easy| sort and move two pointers (pointer)|
+|350|[Intersection of Two Arrays II](https://github.com/ly16/LC-Practice/blob/master/Intersection%20of%20Two%20Arrays%20II.java)|Easy|if sorted use two pointers (hashmap)|
 |378|[Kth Smallest Element in a Sorted Matrix](https://github.com/ly16/LC-Practice/blob/master/Kth%20Smallest%20Element%20in%20a%20Sorted%20Matrix.java)|Medium|use a coor to save x, y and value; then put one column into pq (pq)|
 |380|[Insert Delete GetRandom O(1)](https://github.com/ly16/LC-Practice/blob/master/Insert%20Delete%20GetRandom%20O(1).java)|Medium|import java.util.Random, arrayList swap with the last item and delete (design)|
 |381|[Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/ly16/LC-Practice/blob/master/Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed.java)|Hard|copy the last element to replace the target, and remove the last item; also update the position in the map (design)|
