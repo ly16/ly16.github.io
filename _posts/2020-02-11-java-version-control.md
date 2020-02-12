@@ -91,4 +91,4 @@ ______________________________________________
 </figure>
 
 
-Thanks to the reference in Chinses: https://segmentfault.com/a/1190000013131276
+> Reference: https://segmentfault.com/a/1190000013131276
