@@ -2,7 +2,7 @@
 layout:     post
 title:      LeetCode Dijkstra template
 subtitle:   Dijkstra in Java and relevant questions
-date:       2020-11-27
+date:       2020-12-27
 author:     Clover
 header-img: img/leetcode.jpg
 catalog: true
@@ -12,12 +12,12 @@ tags:
 ---
 
 ### Java Template
-Use priority Queue for BFS
+Use priority Queue for BFS graph traversal
 
 - time = O((E+V)logV) = O(ElogV)
 - space = O(V)
 
-
+[Leetcode 743. Network Delay Time](https://leetcode.com/problems/network-delay-time/)
 ```java
 class Solution {
     class Pair {
@@ -67,3 +67,13 @@ class Solution {
 }
 
 ```
+
+#### Relevant questions
+
+* https://leetcode.com/problems/the-maze-ii/
+* https://leetcode.com/problems/the-maze-iii/
+* https://leetcode.com/problems/cheapest-flights-within-k-stops/
+* https://leetcode.com/problems/trapping-rain-water-ii/submissions/
+* https://leetcode.com/problems/path-with-maximum-probability/
+* https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/
+* https://leetcode.com/problems/path-with-minimum-effort/
