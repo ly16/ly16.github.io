@@ -12,10 +12,11 @@ tags:
 ---
 
 ### Java Template
-Use priority Queue for BFS graph traversal
+Use adjacent list for graph
+Update indegree and outdegree as BFS graph traversal
 
-- time = O((E+V)logV) = O(ElogV)
-- space = O(V)
+- time = O(E+V)
+- space = O(E+V)
 
 [207. Course Schedule](https://leetcode.com/problems/course-schedule/)
 
