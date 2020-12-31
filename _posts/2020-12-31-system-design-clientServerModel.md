@@ -29,7 +29,7 @@ tags:
   - Allow for ordered, reliable data delivery between machines over the public internet by connection.
   - TCP structure: 
         
-        IP header | TCP header | data
+    | IP header | TCP header | data|
         
   - TCP connection, handshake, timed out, end the connection, sockets to applications
   
