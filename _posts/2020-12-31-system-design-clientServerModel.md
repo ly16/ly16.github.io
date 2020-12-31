@@ -21,12 +21,16 @@ tags:
 
 - IP: Internet protocal, IP address. IP packet: stored in bytes
 
-  - IP header: source IP address, destination address, total size of packet, internet IP version IPV4 or IPV6| 
-  Payload: data to send(2^16 bytes) so we need multiple ip packets (TCP) for large files
+  - IP header: 
+    
+    | source IP address, destination address, total size of packet, internet IP version IPV4 or IPV6 | Payload: data to send(2^16 bytes) so we need multiple ip packets (TCP) for large files |
   
 - TCP: transmission control protocal. Send IP packet in order. Error free way, resend if incorrect.  Build on top  of IP.
   - Allow for ordered, reliable data delivery between machines over the public internet by connection.
-  - TCP structure: IP header | TCP header | data
+  - TCP structure: 
+        
+        IP header | TCP header | data
+        
   - TCP connection, handshake, timed out, end the connection, sockets to applications
   
 - HTTP: HeperText transfer protocol. request-response paradigm. More business logical than IP and TCP. BUild on top of TCP.
