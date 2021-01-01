@@ -28,7 +28,7 @@ tags:
 
 - Process of data transmission
     <figure>
-      <img src="/img/tcpiptransdata.png" alt="Image" />
+      <img src="/img/tcpiptransdata.jpeg" alt="Image" />
     </figure>
     - From higher layer to lower laryer in sender, From lower layer to higher layer in receiver
      <figure>
@@ -86,7 +86,9 @@ tags:
 
 
 ### What happened when you enter an url to your browser
+[Video reference](https://www.youtube.com/watch?v=dh406O2v_1c)
 browser(client) -> DNS query(IP address) -> send HTTP request(IP packet) -> Google.com(server) -> reponse HTML/CSS to clients
+1. 
 
 
 
