@@ -59,8 +59,8 @@ tags:
         
   - TCP connection, handshake, timed out, end the connection, sockets to applications
   
-- HTTP: HeperText transfer protocol. request-response paradigm. More business logical than IP and TCP. BUild on top of TCP.
-  - http request: host, port, method(get, put, post, delete), path, headers, body
+- HTTP: HeperText transfer protocol. request-response paradigm. More business logical than IP and TCP. Build on top of TCP.
+  - http request: host, port, method(get, put, post, delete), path, headers, body, cookie
   - http responces: statusCode, headers, body
   - Difference between POST and PUT?
      <figure>
@@ -87,8 +87,22 @@ tags:
 
 ### What happened when you enter an url to your browser
 [Video reference](https://www.youtube.com/watch?v=dh406O2v_1c)
+
 browser(client) -> DNS query(IP address) -> send HTTP request(IP packet) -> Google.com(server) -> reponse HTML/CSS to clients
-1. 
+
+1. Initial typing: auto complement,  history and local cache
+2. Url parsing: url or search words
+3. Find protocol: HTTPS 443 (default) or HTTP 80
+
+4. DNS lookup (domain name server): IP address, local cache or DNS over HTTPS
+    - DNS is UDP server, send packet, send to router via to NAT gateway, get response from ISP(Internet Service Provider ) of IP address of google.com
+5. TCP connection: 3 way handshake to build connection, go through many routers
+    - Client Hello, server Hello, TLS protocol, Client key exchange, Server key exchange
+6. GET request: Cookie together with the get request, send the header, response with the HTML web page body
+   - http request: host, port, method(get, put, post, delete), path, headers, body, cookie
+   - passowrd and username: token, store in cookie. Check whether is the correct person to log in.
+   - http responces: statusCode, headers, body
+7. HTML parsing: content-type html, image, html, js, css
 
 
 
