@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      LeetCode Appendix
-subtitle:   check isPowerOfTwo, check valid tree (check cycle in undirected graph)
+subtitle:   Formular of useful algorithm
 date:       2021-01-02
 author:     Clover
 header-img: img/leetcode.jpg
