@@ -10,6 +10,18 @@ tags:
     - LeetCode
 
 ---
+### GCD of two numbers 辗转相除法 Euclidean algorithm
+
+```java
+public int gcd(int a, int b) {
+    if (a > b) {
+        return b == 0 ? a : gcd(b, a % b);
+    } else {
+        return a == 0 ? b : gcd(a, b % a);
+    }
+}
+```
+
 
 ### isPowerOfTwo in Java
 
