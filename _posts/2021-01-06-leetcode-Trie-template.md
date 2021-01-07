@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      LeetCode Trie template
-subtitle:   Dijkstra in Java and relevant questions
-date:       2020-12-27
+subtitle:   Trie in Java and relevant questions
+date:       2021-01-06
 author:     Clover
 header-img: img/leetcode.jpg
 catalog: true
