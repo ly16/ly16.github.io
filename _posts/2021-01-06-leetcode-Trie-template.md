@@ -76,7 +76,7 @@ public class Trie {
 
 ##### Map version
 
-```
+```java
 class Trie {
 
     class TrieNode {
