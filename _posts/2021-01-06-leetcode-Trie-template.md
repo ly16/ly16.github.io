@@ -136,3 +136,9 @@ class Trie {
 #### Relevant questions
 
 * https://leetcode.com/problems/word-search-ii/
+* https://leetcode.com/problems/implement-magic-dictionary
+* https://leetcode.com/problems/replace-words/
+* https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/
+* https://leetcode.com/problems/map-sum-pairs/
+* https://leetcode.com/problems/design-add-and-search-words-data-structure/
+* https://leetcode.com/problems/longest-word-in-dictionary/
