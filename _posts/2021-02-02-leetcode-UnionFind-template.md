@@ -15,7 +15,7 @@ tags:
 
 
 ##### Quick Union
-- time = O(n^n) each union is O(n)
+- time = O(n^2) each union is O(n)
   - if connect n items, the total time = O(n^2)
 - space = O(n)
 
