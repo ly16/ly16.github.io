@@ -54,6 +54,7 @@ public boolean isPowerOfTwo(int n)
 - Similar to Collections.binarysearch() in list or other collections.
 
 > If input list is not sorted, the results are undefined.
+
 > If there are duplicates, there is no guarantee which one will be found.
 
 
