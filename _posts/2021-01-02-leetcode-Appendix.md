@@ -23,7 +23,7 @@ public int gcd(int a, int b) {
 ```
 
 
-### LCM(Least Common Multiple) of two numbers: a, b
+### LCM (Least Common Multiple) of two numbers: a, b
 ```
 GCD * LCM = a * b
 ```
