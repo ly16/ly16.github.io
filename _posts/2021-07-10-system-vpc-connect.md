@@ -28,13 +28,13 @@ tags:
 
 
 ### Main differences
-#### VPC Endpoints vs. VPC Peering
+##### VPC Endpoints vs. VPC Peering
 [What Are the Differences Between VPC Endpoints and VPC Peering Connections?](https://support.huaweicloud.com/intl/en-us/vpcep_faq/vpcep_04_0004.html)
 - limitation of vpc peering:
 
 [The maximum quota is 125 peering connections per VPC](https://docs.aws.amazon.com/vpc/latest/userguide/amazon-vpc-limits.html)
 
-#### AWS Direct connect vs. VPC peering
+##### AWS Direct connect vs. VPC peering
 https://stackoverflow.com/questions/52871912/how-do-aws-direct-connect-and-vpc-peering-differ
 
 
