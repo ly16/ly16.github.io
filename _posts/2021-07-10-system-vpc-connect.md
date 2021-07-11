@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Vpc connection
-subtitle:   Vpc direct connect, Vpc peering, Vpc private link (endpoint)
+title:      VPC connection
+subtitle:   VPC direct connect, VPC peering, VPC private link (endpoint)
 date:       2021-07-10
 author:     Clover
 header-img: img/systemDesign.jpeg
