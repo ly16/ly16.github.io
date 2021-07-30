@@ -12,7 +12,7 @@ tags:
 ---
 
 ### Java Template
-Use Stack or Deque for array
+Use Stack or Deque for array, Keep an ascending or descending order
 
 - time = O(n)
 - space = O(n)
@@ -45,4 +45,4 @@ class Solution {
 * https://leetcode.com/problems/number-of-visible-people-in-a-queue/
 * https://leetcode.com/problems/next-greater-element-ii/
 * https://leetcode.com/problems/largest-rectangle-in-histogram/
-* 
+
