@@ -12,7 +12,7 @@ tags:
 ---
 
 ### Java Template
-Use Stack or Deque for array
+Use Stack or Deque in ascending or descending order
 
 - time = O(n)
 - space = O(n)
