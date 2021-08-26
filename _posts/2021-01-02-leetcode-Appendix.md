@@ -98,9 +98,7 @@ public boolean isPowerOfTwo(int n)
 ### Arrays.binarySearch() Java API
 - It returns the insertion point of the index = -(res + 1)
 - Similar to Collections.binarysearch() in list or other collections.
-
-> If input list is not sorted, the results are undefined.
-
-> If there are duplicates, there is no guarantee which one will be found.
+- If input list is not sorted, the results are undefined.
+- If there are duplicates, there is no guarantee which one will be found.
 
 
