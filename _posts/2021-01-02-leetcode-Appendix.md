@@ -62,6 +62,28 @@ public boolean isPowerOfTwo(int n)
     }
 ```
 
+###  min number of [add](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) / [remove](https://leetcode.com/problems/remove-invalid-parentheses/) / [swap](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) to make valid parentheses
+
+```java
+    public int minAddToMakeValid(String s) {
+        int forward = 0;
+        int res = 0;
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                forward++;
+            } else {
+                forward--;
+                if (forward == -1) {
+                    res++;
+                    forward = 0;
+                }
+            }
+        }
+        res += forward;
+        return res;
+    }
+
+```
 
 
 ### check valid tree (check cycle in undirected graph)
