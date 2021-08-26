@@ -46,6 +46,24 @@ public boolean isPowerOfTwo(int n)
 } 
 ```
 
+### fast pow of large number [positive only](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/)
+
+```java
+    public long multi(long base, long time) {
+        if (time == 0) {
+            return 1;
+        }
+        if (time == 1) {
+            return base;
+        }
+        long half = multi(base, time / 2);
+        long p = (half * half) % mod;
+        return time % 2 == 0 ? (half * half) % mod : ((half * half) % mod * (base % mod)) % mod;
+    }
+```
+
+
+
 ### check valid tree (check cycle in undirected graph)
 
 - If we know the total node of tree:
