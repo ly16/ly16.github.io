@@ -85,6 +85,22 @@ public boolean isPowerOfTwo(int n)
 
 ```
 
+### tree map api
+
+```java
+public static void main(String[] args) {
+    TreeMap<Integer, Integer> map = new TreeMap<>();
+    map.put(3, 2);
+    map.put(5, 7);
+    map.put(9, 11);
+    map.put(2, 6);
+    System.out.println(map.firstKey()); // 2
+    System.out.println(map.descendingKeySet()); // [9, 5, 3, 2]
+    System.out.println(map.floorKey(6)); // 5
+    System.out.println(map.ceilingKey(100)); // null
+}
+```
+
 
 ### check valid tree (check cycle in undirected graph)
 
