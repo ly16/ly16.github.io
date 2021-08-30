@@ -21,10 +21,11 @@ tags:
 
 [A VPC peering connection is a networking connection between two VPCs that enables you to route traffic between them using private IPv4 addresses or IPv6 addresses.](https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html)
 
-- AWS private link
+- AWS privateLink
+
+You can create your own application in your VPC and configure it as an AWS [PrivateLink-powered service](https://docs.aws.amazon.com/vpc/latest/privatelink/endpoint-service.html) (referred to as an endpoint service). Other AWS principals can create a connection from their VPC to your endpoint service using an [interface VPC endpoint](https://docs.aws.amazon.com/vpc/latest/privatelink/vpce-interface.html). You are the service provider, and the AWS principals that create connections to your service are service consumers.
 
 [Establish private connectivity between VPCs and services hosted on AWS or on-premises, without exposing data to the internet.](https://aws.amazon.com/privatelink/?privatelink-blogs.sort-by=item.additionalFields.createdDate&privatelink-blogs.sort-order=desc)
-  
 
 
 ### Main differences
