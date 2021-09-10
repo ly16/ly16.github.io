@@ -28,6 +28,28 @@ public int gcd(int a, int b) {
 GCD * LCM = a * b
 ```
 
+### find all the prime number <= n
+
+```java
+public List<Integer> findSmallerPrime(int n) {
+    int[] array = new int[n + 1];
+    for (int i = 2; i * i <= n; i++) {
+        int multi = i * 2;
+        while (multi <= n) {
+            array[multi] = 1;
+            multi += i;
+        }
+    }
+    List<Integer> res = new ArrayList<>();
+    for (int i = 2; i <= n; i++) {
+        if (array[i] == 0) {
+            res.add(i);
+        }
+    }
+    return res;
+}
+```
+
 
 ### isPowerOfTwo in Java
 
