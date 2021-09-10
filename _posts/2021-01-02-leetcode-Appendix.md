@@ -57,9 +57,28 @@ public boolean isPowerOfTwo(int n)
             return base;
         }
         long half = multi(base, time / 2);
-        long p = (half * half) % mod;
         return time % 2 == 0 ? (half * half) % mod : ((half * half) % mod * (base % mod)) % mod;
     }
+```
+
+### fast pow of number (positive/negative)
+```java
+class Solution {
+    public double myPow(double x, int n) {
+        if (n >= 0) {
+            return dfs(x, n);
+        }
+        return 1.0 / dfs(x, -n);
+    }
+    
+    public double dfs(double x, int n) {
+        if (n == 0) {
+            return 1.0;
+        }
+        double y = dfs(x, n / 2);
+        return n % 2 == 0 ? y * y : y * y * x;
+    }
+}
 ```
 
 ###  min number of [add](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) / [remove](https://leetcode.com/problems/remove-invalid-parentheses/) / [swap](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) to make valid parentheses
