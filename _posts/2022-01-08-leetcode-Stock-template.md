@@ -18,9 +18,12 @@ tags:
 
 #### 309. Best Time to Buy and Sell Stock with Cooldown
 
-> sell --> cooldown --> Buy --> sell
-> buy = Math.max(preBuy, sellBeforeCooldown - currentPrice)
-> sell = Math.max(preSell, preBuy + currentPrice)
+```
+ sell --> cooldown --> Buy --> sell 
+ buy = Math.max(preBuy, sellBeforeCooldown - currentPrice) 
+ sell = Math.max(preSell, preBuy + currentPrice) 
+```
+
 
 - time = O(n)
 - space = O(1)
@@ -46,13 +49,15 @@ class Solution {
 
 #### 714. Best Time to Buy and Sell Stock with Transaction Fee
 
-> buy --> sell --> buy
-> only add transaction fee when sell out
-> sell = Math.max(preSell, preBuy + currentPrice - transactionFee)
-> buy = Math.max(preBuy, preSell - currentPrice)
+```
+buy --> sell --> buy
+only add transaction fee when sell out
+sell = Math.max(preSell, preBuy + currentPrice - transactionFee)
+buy = Math.max(preBuy, preSell - currentPrice)
+```
 
 - time = O(n)
-- space = O(n)
+- space = O(1)
 
 ```Java
 class Solution {
