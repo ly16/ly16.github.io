@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      LeetCode Stock questions template
-subtitle:   UnionFind in Java and relevant questions
+subtitle:   Stock templates in Java and relevant questions
 date:       2022-01-08
 author:     Clover
 header-img: img/leetcode.jpg
