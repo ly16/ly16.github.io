@@ -14,7 +14,54 @@ tags:
 #### Best Time to Buy and Sell Stock
 #### Best Time to Buy and Sell Stock II
 #### Best Time to Buy and Sell Stock III
+
+- time = O(n)
+- space = O(1)
+
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        int hold1 = Integer.MIN_VALUE, sold1 = 0, hold2 = Integer.MIN_VALUE, sold2 = 0;
+        for (int p : prices) {
+            hold1 = Math.max(hold1, -p);
+            sold1 = Math.max(sold1, hold1 + p);
+            hold2 = Math.max(hold2, sold1 - p);
+            sold2 = Math.max(sold2, hold2 + p);
+        }
+        return Math.max(sold2);
+    }
+}
+```
+
 #### Best Time to Buy and Sell Stock IV
+
+- time = O(nk)
+- space = O(k)
+
+```java
+class Solution {
+    public int maxProfit(int k, int[] prices) {    
+        if (k >= prices.length / 2) {
+            int res = 0;
+            for (int i = 1; i < prices.length; i++) {
+                if (prices[i] > prices[i - 1]) {
+                    res += prices[i] - prices[i - 1];
+                }
+            }
+            return res;
+        }
+        int[] buy = new int[k + 1], sell = new int[k + 1];
+        Arrays.fill(buy, Integer.MIN_VALUE);
+        for (int price : prices) {
+            for (int i = 1; i <= k; i++) {
+                buy[i] = Math.max(buy[i], sell[i - 1] - price);
+                sell[i] = Math.max(sell[i], buy[i] + price);
+            }
+        }
+        return sell[k];
+    }
+}
+```
 
 #### 309. Best Time to Buy and Sell Stock with Cooldown
 
@@ -79,5 +126,8 @@ class Solution {
 
 #### Relevant questions & reference
 
+* https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+* https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
 * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+
