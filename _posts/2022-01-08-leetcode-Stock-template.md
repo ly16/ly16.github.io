@@ -113,10 +113,8 @@ class Solution {
         int sell = 0;
 
         for (int p : prices) {
-            int preBuy = buy;
-            int preSell = sell;
-            buy = Math.max(preBuy, preSell - p);
-            sell = Math.max(preSell, preBuy + p - fee);
+            buy = Math.max(buy, sell - p);
+            sell = Math.max(sell, buy + p - fee);
         }
         return sell;
     }
