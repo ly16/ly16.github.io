@@ -54,7 +54,7 @@ public static void main(String[] args) {
 - time = O(n)
 - space = O(1)
 
-```Java
+```java
 class Solution {
     public String subStrHash(String s, int power, int mod, int k, int hashValue) {
         int n = s.length();
