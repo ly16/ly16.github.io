@@ -106,6 +106,51 @@ class UF {
 
 ```
 
+
+##### HashMap version of unionFind
+[Leetcode 721](https://leetcode.com/problems/accounts-merge/)
+
+```java
+    class UF {
+        Map<String, String> parentMap;
+        Map<String, Integer> sizeMap;
+        UF() {
+            parentMap = new HashMap<>();
+            sizeMap = new HashMap<>();
+        }
+
+        void union(String s1, String s2) {
+            String p1 = find(s1);
+            String p2 = find(s2);
+
+            if(p1.equals(p2)) {
+                return;
+            }
+            if (sizeMap.get(p1) > sizeMap.get(p2)) {
+                parentMap.put(p2, p1);
+                sizeMap.put(p1, sizeMap.get(p1) + sizeMap.get(p2));
+            } else {
+                parentMap.put(p1, p2);
+                sizeMap.put(p2, sizeMap.get(p2) + sizeMap.get(p1));
+            }
+        }
+
+        String find(String x) {
+            if (!parentMap.containsKey(x)) {
+                parentMap.put(x, x);
+                sizeMap.put(x, 1);
+                return x;
+            }
+            while (!x.equals(parentMap.get(x))) {
+                parentMap.put(x, parentMap.get(parentMap.get(x)));
+                x = parentMap.get(x);
+            }
+            return x;
+        }
+    }
+```
+
+
 #### Relevant questions & reference
 
 
