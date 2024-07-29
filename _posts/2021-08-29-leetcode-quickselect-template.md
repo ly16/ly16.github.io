@@ -13,43 +13,43 @@ tags:
 ### quick sort Java template
 
 ```java
-public class QuickSort {
-    public static void quickSort(int[] nums) {
-        if (nums == null || nums.length == 0) {
-            return;
+class Solution {
+    public int[] sortArray(int[] nums) {
+        if (nums == null || nums.length <= 1) {
+            return nums;
         }
-        sort(nums, 0, nums.length - 1);
+        quickSort(nums, 0, nums.length - 1);
+        return nums;
     }
 
-    public static void sort(int[] nums, int start, int end) {
+    public void quickSort(int[] nums, int start, int end) {
         if (start >= end) {
             return;
         }
-
-        int left = start;
-        int right = end;
-        int pivot = nums[left + (right - left) / 2];
-
-        while (left <= right) {
-            while (left <= right && nums[left] < pivot) {
-                left++;
-            }
-            while (left <= right && nums[right] > pivot) {
-                right--;
-            }
-
-            if (left <= right) {
-                swap(nums, left++, right--);
-            }
-        }
-        sort(nums, start, right);
-        sort(nums, left, end);
+        int pivot = partition(nums, start, end);
+        quickSort(nums, start, pivot - 1);
+        quickSort(nums, pivot + 1, end);
     }
 
-    public static void swap(int[] nums, int left, int right) {
-        int tmp = nums[left];
+    public int partition(int[] nums, int start, int end) {
+        if (start == end) {
+            return start;
+        }
+        int pivot = nums[end];
+        int slow = start;
+        for (int fast = start; fast < end; fast++) {
+            if (nums[fast] <= pivot) {
+                swap(nums, slow++, fast); 
+            }
+        }
+        swap(nums, slow, end);
+        return slow;
+    }
+
+    public void swap(int[] nums, int left, int right) {
+        int temp = nums[left];
         nums[left] = nums[right];
-        nums[right] = tmp;
+        nums[right] = temp;
     }
 }
 ```
