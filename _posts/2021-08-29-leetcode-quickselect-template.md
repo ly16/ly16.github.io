@@ -55,47 +55,93 @@ class Solution {
 ```
 
 ### quick select java template
+#### with additional arrays
 
 ```java
-public class QuickSelect {
-    public int findKthLargest(int[] nums, int k) {
-        return quickSelect(nums, 0, nums.length - 1, k);
+class Solution {
+     public int findKthLargest(int[] nums, int k) {
+        List<Integer> list = new ArrayList<>();
+        for (int num: nums) {
+            list.add(num);
+        }
+        
+        return quickSelect(list, k);
     }
-    public int quickSelect(int[] nums, int start, int end, int k) {
-        int left = start;
-        int right = end;
-        int pivot = nums[(left + right) / 2];
-        while(left <= right) {
-            // sort from large to small, so the left part is larger
-            // similar as find the kth the smallest one
-            while (left <= right && nums[left] > pivot) {
-                left++;
-            }
-            while (left <= right && nums[right] < pivot) {
-                right--;
-            }
+    
+    public int quickSelect(List<Integer> nums, int k) {
+        int pivotIndex = new Random().nextInt(nums.size());
+        int pivot = nums.get(pivotIndex);
 
-            if (left <= right) {
-                swap(nums,left++, right--);
+        List<Integer> left = new ArrayList<>();
+        List<Integer> mid = new ArrayList<>();
+        List<Integer> right = new ArrayList<>();
+
+        for (int num : nums) {
+            if (num > pivot) { // left hand is the larger part
+                left.add(num);
+            } else if (num < pivot) {
+                right.add(num);
+            } else {
+                mid.add(num);
             }
         }
-
-        if (start + k - 1 <= right) {
-            return quickSelect(nums, start, right, k);
+        
+        if (left.size() >= k) {
+            return quickSelect(left, k);
         }
-        if (start + k - 1 >= left) {
-            return quickSelect(nums,  left, end, k - (left - start));
+ 
+        if (left.size() + mid.size() < k) {
+            return quickSelect(right, k - left.size() - mid.size());
         }
-        return nums[right + 1];
-    }
-
-    public void swap(int[] nums, int left, int right) {
-        int tmp = nums[left];
-        nums[left] = nums[right];
-        nums[right] = tmp;
+        return pivot;
     }
 }
 ```
+
+#### without additional arrays
+
+```java
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        if (nums == null || nums.length < k) {
+            return -1;
+        }
+        return quickSelect(nums, 0, nums.length - 1, k);
+    }
+
+    public int quickSelect(int[] nums, int start, int end, int k) {
+        int partition = dfs(nums, start, end); 
+        if (partition == k - 1) {
+            return nums[partition];
+        }
+        if (partition > k - 1) {
+            return quickSelect(nums, start, partition - 1, k);
+        }
+        return quickSelect(nums, partition + 1, end, k);
+    }
+
+    public int dfs(int[] nums, int start, int end) {
+        int pivotIndex = new Random().nextInt(end - start + 1) + start;
+        int pivot = nums[pivotIndex];
+        swap(nums, pivotIndex, end); 
+        int slow = start;
+        for (int i = start; i < end; i++) {
+            if (nums[i] >= pivot) { // left hand is the larger part
+                swap(nums, slow++, i);
+            }
+        }
+        swap(nums, slow, end);
+        return slow;
+    }
+
+    public void swap(int[] nums, int left, int right) {
+        int temp = nums[left];
+        nums[left] = nums[right];
+        nums[right] = temp;
+    }
+}
+```
+
 
 
 #### Relevant questions & reference
