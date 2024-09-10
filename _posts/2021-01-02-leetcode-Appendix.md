@@ -13,11 +13,22 @@ tags:
 ### GCD of two numbers 辗转相除法 Euclidean algorithm
 
 ```java
+// recursive version
 public int gcd(int a, int b) {
     if (b == 0) {
         return a;
     }
     return gcd(b, a % b);
+}
+
+// iterative version
+int findGCD(int n1, int n2) {
+    while (n1 != 0) {
+        int temp = n1;
+        n1 = n2 % n1;
+        n2 = temp;
+    }
+    return n2;
 }
 ```
 
