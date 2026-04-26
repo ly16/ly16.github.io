@@ -14,7 +14,8 @@ tags:
 #### Array
 #### String
 1. list sort
-```python
+
+```
 # in original list
 a = [3, 1, 2]
 a.sort()
@@ -30,12 +31,11 @@ print(a)  # keep the same
 2. sort parameters
 
 Using Timsort, which is a combination of insertion sort(small runs) and merge sort(merge sorted runs)
-
 - time = best O(n), avg and worst O(nlogn)
 - space = O(n)
 
 
-```python
+```
 # descending sort
 a.sort(reverse=True)
 
@@ -48,7 +48,9 @@ a.sort(key=lambda x: (x[0], -x[1]))
 #### Binary Search
 
 1. Find the index of the first appearance (nums[index] <= target)
-```python
+
+
+```
 import bisect
 
 a = [1, 2, 4, 4, 5]
@@ -57,7 +59,7 @@ print(bisect.bisect_left(a, 4))  # 2
 
 2. Find the index of the first larger appearance ((nums[index] > target)
 
-```python
+```
 import bisect
 
 a = [1, 2, 4, 4, 5]
