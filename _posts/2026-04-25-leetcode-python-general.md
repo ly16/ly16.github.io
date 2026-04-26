@@ -14,3 +14,20 @@ tags:
 #### Array
 #### String
 #### Binary Search
+
+1. Find the index of the first appearance (nums[index] <= target)
+```python
+import bisect
+
+a = [1, 2, 4, 4, 5]
+print(bisect.bisect_left(a, 4))  # 2
+```
+
+2. Find the index of the first larger appearance ((nums[index] > target)
+
+```python
+import bisect
+
+a = [1, 2, 4, 4, 5]
+print(bisect.bisect_right(a, 4))  # 4
+```
