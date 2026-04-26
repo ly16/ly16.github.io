@@ -11,6 +11,21 @@ tags:
 
 ---
 
+#### Data Structure
+
+> dict
+
+| Concept      | Java (`HashMap`)                            | Python (`dict`) |
+| ------------ | ------------------------------------------- | --------------- |
+| Create       | `Map<String, Integer> m = new HashMap<>();` | `d = {}`        |
+| Put          | `m.put("a", 1);`                            | `d["a"] = 1`    |
+| Get          | `m.get("a")`                                | `d["a"]`        |
+| Get default  | `m.getOrDefault("a", 0)`                    | `d.get("a", 0)` |
+| Contains key | `m.containsKey("a")`                        | `"a" in d`      |
+| Remove       | `m.remove("a")`                             | `d.pop("a")`    |
+| Size         | `m.size()`                                  | `len(d)`        |
+
+
 #### Array
 #### String
 #### Sort
