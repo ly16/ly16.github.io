@@ -24,6 +24,7 @@ tags:
 | Contains key | `m.containsKey("a")`                        | `"a" in d`      |
 | Remove       | `m.remove("a")`                             | `d.pop("a")`    |
 | Size         | `m.size()`                                  | `len(d)`        |
+| computeIfAbsent | `m.computeIfAbsent(k, key -> new ArrayList<>()).add(v)` | `d.setdefault(k, []).append(v)`|
 
 
 #### Array
