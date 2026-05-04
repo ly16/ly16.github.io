@@ -26,6 +26,22 @@ tags:
 | Size         | `m.size()`                                  | `len(d)`        |
 | computeIfAbsent | `m.computeIfAbsent(k, key -> new ArrayList<>()).add(v)` | `d.setdefault(k, []).append(v)`|
 
+> deque
+```python
+from collections import deque
+
+# initialization
+d = deque()
+d = deque([1, 2, 3])      # From a list
+d = deque("abc")          # From a string: deque(['a', 'b', 'c'])
+
+d.append(x)
+d.pop()
+d.appendleft(x)
+d.popleft()
+
+```
+
 
 #### Array
 #### String
