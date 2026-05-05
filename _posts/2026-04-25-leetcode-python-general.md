@@ -61,6 +61,16 @@ d.popleft()
 | **Removing** | `list.pop([i])` | Removes and returns item at index (default: last). | $O(1)$ end / $O(N)$ elsewhere |
 | | `list.remove(x)` | Deletes first occurrence of value `x`. | $O(N)$ |
 | | `del list[i:j]` | Deletes an entire index range/slice in-place. | $O(N)$ |
+| **Searching & Info** | `list.index(x)` | Returns the index of the first occurrence of `x`. Raises `ValueError` if not found. | $O(N)$ |
+| | `list.count(x)` | Returns the number of times `x` appears in the list. | $O(N)$ |
+| | `len(list)` | *(Built-in)* Returns the total number of elements in the list. | $O(1)$ |
+| | `x in list` | Checks if `x` exists in the list (returns `True`/`False`). | $O(N)$ |
+| **Reordering** | `list.sort(key=..., reverse=...)` | Sorts the list **in-place** (permanently modifies the original list). | $O(N \log N)$ |
+| | `list.reverse()` | Reverses the elements of the list **in-place**. | $O(N)$ |
+| | `list.copy()` | Returns a shallow copy of the list. | $O(N)$ |
+| **Slicing** | `list[start:stop]` | Extracts a sublist from `start` up to (but excluding) `stop`. | $O(K)$ <small>(K is slice size)</small> |
+| | `list[start:stop:step]` | Extracts a sublist using a custom stride/step. | $O(K)$ |
+| | `list[::-1]` | Returns a completely reversed shallow copy of the list. | $O(N)$ |
 
 #### String
 #### Sort
