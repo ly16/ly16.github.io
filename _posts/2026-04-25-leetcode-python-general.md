@@ -14,7 +14,7 @@ tags:
 #### Data Structure
 > imports pkg
 ```python
-from typing import List, Dict, Set, Tuple, Counter, Optional
+from typing import List, Dict, Set, Tuple, Optional
 from collections import deque, defaultdict, Counter
 import bisect
 import math
