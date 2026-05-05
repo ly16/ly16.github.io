@@ -12,13 +12,21 @@ tags:
 ---
 
 #### Data Structure
+> imports pkg
+```python
+from typing import List, Dict, Set, Tuple, Counter, Optional
+from collections import deque, defaultdict, Counter
+import bisect
+import math
+import heapq
+```
 
 > dict
 
 | Concept      | Java (`HashMap`)                            | Python (`dict`) |
 | ------------ | ------------------------------------------- | --------------- |
-| Create       | `Map<String, Integer> m = new HashMap<>();` | `d = {}`        |
-| Put          | `m.put("a", 1);`                            | `d["a"] = 1`    |
+| Create       | `Map<String, Integer> m = new HashMap<>();` | `d = {}`, `d = defaultdict(int)`|
+| Put          | `m.put("a", 1);`                            | `d["a"] = 1` , `d['apple'] += 1 `|
 | Get          | `m.get("a")`                                | `d["a"]`        |
 | Get default  | `m.getOrDefault("a", 0)`                    | `d.get("a", 0)` |
 | Contains key | `m.containsKey("a")`                        | `"a" in d`      |
@@ -42,8 +50,18 @@ d.popleft()
 
 ```
 
-
 #### Array
+
+| Category | Operation & Syntax | Behavior | Time Complexity |
+| :--- | :--- | :--- | :--- |
+| **Adding** | `list.append(x)` | Appends elements to the end. | $O(1)$ amortized |
+| | `list.insert(i, x)` | Squeezes `x` in at index `i`, shifting existing items. | $O(N)$ |
+| | `list.extend(iterable)` | Appends all items from an iterable. | $O(K)$ |
+| **Replacing** | `list[i] = x` | Overwrites index `i` in-place. Size does not change. | $O(1)$ |
+| **Removing** | `list.pop([i])` | Removes and returns item at index (default: last). | $O(1)$ end / $O(N)$ elsewhere |
+| | `list.remove(x)` | Deletes first occurrence of value `x`. | $O(N)$ |
+| | `del list[i:j]` | Deletes an entire index range/slice in-place. | $O(N)$ |
+
 #### String
 #### Sort
 
