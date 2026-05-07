@@ -13,6 +13,7 @@ tags:
 
 #### Data Structure
 > imports pkg
+
 ```python
 from typing import List, Dict, Set, Tuple, Optional
 from collections import deque, defaultdict, Counter
@@ -35,6 +36,7 @@ import heapq
 | computeIfAbsent | `m.computeIfAbsent(k, key -> new ArrayList<>()).add(v)` | `d.setdefault(k, []).append(v)`|
 
 > deque
+
 ```python
 from collections import deque
 
@@ -47,7 +49,6 @@ d.append(x)
 d.pop()
 d.appendleft(x)
 d.popleft()
-
 ```
 
 #### Array
